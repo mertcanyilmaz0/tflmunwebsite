@@ -100,7 +100,7 @@ header .navbar ul li.active{
 /* Header Section End */
 /* Main Section Start */
 .home-container{
-    height:  calc(100vh - 11.5rem) ;
+    height:  calc(100vh - 15.5rem) ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,11 +110,14 @@ header .navbar ul li.active{
     grid-template-rows: 1fr;
 }
 .home-container .home-content .home-baslik{
-    color: var(--text-color);
-    font-size: 3.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.home-container .home-content .home-baslik h1{
+    color: var(--text-color);
+    font-size: 5rem;
+    margin-bottom: 1rem;
 }
 .home-container .home-content .home-button{
     display: flex;
@@ -124,7 +127,72 @@ header .navbar ul li.active{
 .home-container .home-content .home-button button{
     color: var(--text-color);
     font-size: 2.5rem;
+    margin-top: 2rem;
     padding: 1rem 1rem;
     border-radius: 3rem;
     background-color: var(--bg-color);
 }
+#countdown{
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    font-size: 6rem;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+/* İnformation Section Start */
+.information-container .information-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.information-container .information-content .information-section{
+    align-items: center;
+    justify-content: center;
+}
+.information-container .information-content .information-iframe iframe{
+    width: 60rem;
+    height: 30rem;
+    margin-right: 10rem;
+}
+.information-container .information-baslik h1{
+    color: var(--text-color);
+    margin-left: 10rem;
+    font-size: 4rem;
+}
+.information-container .information-content .information-section{
+    margin-left: 10rem;
+    color: var(--text-color);
+    font-size: 2.2rem;
+}
+.information-container .information-content .information-section ul{
+    list-style-type: none;
+}
+.information-container .information-content .information-section li{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.information-container .information-content .information-section h2{
+    color: var(--text-color);
+    font-size: 3.2rem;
+}
+.information-container .information-content .information-section svg{
+    width: 3rem;
+}
+/* İnformation Section End */
+/* Delege Section Start */
+.delege{
+    margin: 0 10rem;
+}
+.delege .delege-content h2{
+    color: var(--text-color);
+    font-size: 3.2rem;
+}
+.delege .delege-content p{
+    color: var(--text-color);
+    font-size: 2.2rem;
+}
+/* Delege Section End */
+/* Footer Section Start */
+
+/* Footer Section End */
