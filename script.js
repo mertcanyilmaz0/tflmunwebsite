@@ -16,7 +16,10 @@
             var seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
 
             // Geri sayımı ekrana yazdır
-            document.getElementById("countdown").innerHTML = days + " " + hours + "." + minutes + "." + seconds;
+            document.getElementById("day").innerHTML = days;
+            document.getElementById("hour").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
 
             // Eğer geri sayım tamamlanmışsa
             if (remainingTime < 0) {
