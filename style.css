@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --main-color: #C84B31;
+    --text-color: #ECDBBA;
+    --bg-color: #191919;
+    --black-color: #2D4263;
+    --border: 0.1rem solid #191919;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s ease;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Base Html Codes */
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 0.8rem;
+    height: auto;
+    background-color: var(--text-color);
+}
+
+html::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 3rem;
+    background-color: var(--black-color);
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+section {
+    padding: 3.5rem 7%;
+}
+
+footer {
+    padding: 3.5rem 7%;
+}
+/* Header Section Start */
+header{
+    background-color: var(--bg-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: static;
+}
+header .logo .tflmun-logo{
+    width: 7rem;
+    border-radius: 15%;
+}
+
+header .navbar ul li{
+    list-style: none;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    margin: 4rem 2.5rem 4rem 2.5rem;
+}
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .navbar li:hover{
+    border-bottom: 0.1rem solid var(--text-color);
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .navbar ul li.active{
+    border-bottom: 0.1rem solid var(--text-color);
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Header Section End */
+/* Main Section Start */
+.home-container{
+    height:  calc(100vh - 11.5rem) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-container .home-content{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.home-container .home-content .home-baslik{
+    color: var(--text-color);
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-container .home-content .home-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-container .home-content .home-button button{
+    color: var(--text-color);
+    font-size: 2.5rem;
+    padding: 1rem 1rem;
+    border-radius: 3rem;
+    background-color: var(--bg-color);
+}
