@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-    --main-color: #C84B31;
-    --text-color: #ECDBBA;
-    --bg-color: #191919;
-    --black-color: #2D4263;
+    --main-color: #841E15;
+    --text-color: #fff;
+    --bg-color: #841E15;
+    --black-color: #000;
+    --new-bg-color: #851515;
     --border: 0.1rem solid #191919;
 }
 
@@ -57,15 +58,16 @@ section {
 
 /* Header Section Start */
 header{
-    background-color: var(--bg-color);
-    width: 100%;
+    background-color: var(--new-bg-color);
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     position: static;
+    z-index: 1000;
 }
 header .logo .tflmun-logo{
-    width: 7rem;
+    width: 8rem;
     border-radius: 15%;
 }
 
@@ -78,7 +80,7 @@ header .navbar ul li{
 header .navbar ul{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 header .navbar li:hover{
     border-bottom: 0.1rem solid var(--text-color);
@@ -93,6 +95,14 @@ header .navbar ul li.active{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+header .buttons button{
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    background-color: transparent;
+    display: none;
 }
 /* Header Section End */
 /* Main Section Start */
@@ -116,48 +126,66 @@ header .navbar ul li.active{
     justify-content: center;
 }
 .home-container .home-content .home-baslik h1{
-    color: var(--text-color);
-    font-size: 8rem;
+    color: var(--main-color);
+    font-size: 25rem;
     margin-bottom: 1rem;
     font-weight: bold;
+    text-shadow: -1px -1px #52130d, 1px 1px#52130d, 2px 2px #52130d, 3px 3px #52130d, 4px 4px #52130d, 0.05rem 0.05rem #52130d, 6px 6px #52130d, 7px 7px #52130d;
 }
-.home-container .home-content .countdown p{
+/*Text Shadow'un Rem'li Hali*\
+
+/*  text-shadow: -0.01rem -0.01rem #52130d, 0.01rem 0.01rem #52130d, 0.02rem 0.02rem #52130d, 0.03rem 0.03rem #52130d, 0.04rem 0.04rem #52130d, 0.05rem 0.05rem #52130d,
+    0.06rem 0.06rem #52130d, 0.07rem 0.07rem #52130d; */
+
+/* Main Section End */
+/* Countdown Start */
+.countdown-container .countdown p{
     padding: 2rem;
-    border-radius: 2rem;
-    margin: 0 1rem;
+    margin: 1rem 1rem;
     color: var(--text-color);
-    background-color: var(--black-color);
     font-size: 3.5rem;
-    border: 0.3rem solid var(--bg-color);
+    border: 0.3rem solid var(--text-color);
+    border-radius: 0.5rem;
     box-shadow: 9px 12px 18px -6px #000000;
 }
-.home-container .home-content .countdown .countdown-hour span,
-.home-container .home-content .countdown .countdown-minute span,
-.home-container .home-content .countdown .countdown-second span,
-.home-container .home-content .countdown .countdown-day span{
+.countdown-container .countdown .countdown-hour span,
+.countdown-container .countdown .countdown-minute span,
+.countdown-container .countdown .countdown-second span,
+.countdown-container .countdown .countdown-day span{
     color: var(--text-color);
     font-size: 2.5rem;
     padding: 0.2rem 0.2rem;
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: var(--black-color);
-    border: 0.3rem solid var(--bg-color);
-    border-radius: 1rem;
+    border: 0.3rem solid var(--text-color);
+    border-radius: 0.5rem;
+    box-shadow: 9px 12px 18px -6px #000000;
 }
-.home-container .home-content .countdown ul{
+.countdown-container .countdown ul{
     display: flex;
     align-items: center;
     justify-content: center;
     list-style-type: none;
 }
-.home-container .home-content .countdown .countdow-double-point span{
-    color: var(--bg-color);
+.countdown-container .countdown .countdow-double-point span{
+    color: var(--text-color);
     font-size: 2.5rem;
     font-weight: bold;
     margin: 1rem
 }
+.countdown-container .countdown-baslik h2{
+    font-size: 8rem;
+    text-align: center;
+    color: var(--text-color);
+    text-shadow: -1px -1px #ccc, 1px 1px #ccc, 2px 2px #ccc, 3px 3px #ccc, 4px 4px #ccc, 0.05rem 0.05rem #ccc;
+}
+/* Countdown End */
 /* İnformation Section Start */
+.information-container{
+    margin-right: 10rem;
+    margin-left:10rem
+}
 .information-container .information-content {
     display: flex;
     flex-wrap: wrap;
@@ -171,18 +199,14 @@ header .navbar ul li.active{
 .information-container .information-content .information-iframe iframe{
     width: 60rem;
     height: 30rem;
-    margin-right: 10rem;
-    margin-left: 10rem;
     align-items: center;
     justify-content: center;
 }
 .information-container .information-baslik h1{
     color: var(--text-color);
-    margin-left: 10rem;
     font-size: 4rem;
 }
 .information-container .information-content .information-section{
-    margin-left: 10rem;
     color: var(--text-color);
     font-size: 2.2rem;
 }
@@ -202,23 +226,26 @@ header .navbar ul li.active{
 }
 /* İnformation Section End */
 /* Delege Section Start */
+.delege-container{
+    background-color: var(--new-bg-color);
+}
 .delege{
     margin: 0 10rem;
 }
-.delege .delege-content h2{
+.delege-container .delege .delege-content h2{
     padding-bottom: 1rem;
-    border-bottom: 0.1rem solid var(--bg-color);
+    border-bottom: 0.1rem solid var(--text-color);
     color: var(--text-color);
     font-size: 3.2rem;
 }
-.delege .delege-content p{
+.delege-container .delege .delege-content p{
     color: var(--text-color);
     font-size: 2.2rem;
 }
 /* Delege Section End */
 /* Footer Section Start */
 footer{
-    background-color: var(--bg-color);
+    background-color: var(--new-bg-color);
     width: 100vw;
 }
 footer .footer-list{
@@ -260,6 +287,11 @@ footer .babalar{
 }
 /* Trol Section End */
 /* Responsive Start */
+@media (min-width: 768px) {
+    .header .buttons button{
+        display: none;
+    }
+}
 @media (max-width: 991px){
     html {
         font-size: 39%;
@@ -281,6 +313,54 @@ footer .babalar{
     }
     .home-container{
         height: calc(100vh - 6rem);
+    }
+}
+@media (max-width: 768px){
+    .home-container .home-content .home-baslik h1{
+        font-size: 10rem;
+    }
+    header{
+        justify-content: space-around;
+    }
+    header .buttons button{
+        display: inline;
+        margin: 4rem 0;
+    }
+    .navbar {
+        position: fixed;
+        top: 0;
+        margin-top: 11rem;
+        right: -250px;
+        width: 25rem;
+        height: calc(100vh - 11rem);
+        background-color: var(--new-bg-color);
+        transition: all 0.3s ease-in-out;
+        padding-top: 2rem;
+        border-radius: 1%;
+    }
+    
+    .navbar .navbar-list {
+        display: grid;
+        grid-template-rows: 1fr;
+        align-items: start;
+        list-style-type: none;
+    }
+    
+    .navbar .navbar-list .navbar-list-eleman {
+        padding: 15px;
+        color: var(--text-color);
+    }
+    
+    .navbar .navbar-list .navbar-list-eleman a {
+        color: var(--text-color);
+        text-decoration: none;
+        display: block;
+        transition: 0.2 ease-in;
+    }
+    
+    .navbar .navbar-list .navbar-list-eleman a:hover {
+        border-bottom: 0.1rem solid var(--text-color);
+        padding-bottom: 1rem;
     }
 }
 /* Responsive End */
