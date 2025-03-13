@@ -202,7 +202,7 @@ header .buttons button{
     align-items: center;
     justify-content: center;
 }
-.information-container .information-baslik h1{
+.information-container .information-content .information-section .information-baslik h2{
     color: var(--text-color);
     font-size: 4rem;
 }
@@ -299,6 +299,9 @@ footer .babalar{
     section {
         padding: 1rem;
     }
+    footer {
+        padding: 1rem;
+    }
     .information-container .information-content .information-iframe iframe{
         width: 40rem;
         margin-left: 4rem;
@@ -318,6 +321,85 @@ footer .babalar{
 @media (max-width: 768px){
     .home-container .home-content .home-baslik h1{
         font-size: 10rem;
+    }
+    .countdown-container,
+    .delege-container,
+    .information-container {
+        margin: 10rem 0rem;
+    }
+    header{
+        justify-content: space-around;
+    }
+    header .buttons button{
+        display: inline;
+        margin: 4rem 0;
+    }
+    .navbar {
+        position: fixed;
+        top: 0;
+        margin-top: 11rem;
+        right: -250px;
+        width: 25rem;
+        height: calc(100vh - 11rem);
+        background-color: var(--new-bg-color);
+        transition: all 0.3s ease-in-out;
+        padding-top: 2rem;
+        border-radius: 1%;
+    }
+    
+    .navbar .navbar-list {
+        display: grid;
+        grid-template-rows: 1fr;
+        align-items: start;
+        list-style-type: none;
+    }
+    
+    .navbar .navbar-list .navbar-list-eleman {
+        padding: 15px;
+        color: var(--text-color);
+    }
+    
+    .navbar .navbar-list .navbar-list-eleman a {
+        color: var(--text-color);
+        text-decoration: none;
+        display: block;
+        transition: 0.2 ease-in;
+    }
+    
+    .navbar .navbar-list .navbar-list-eleman a:hover {
+        border-bottom: 0.1rem solid var(--text-color);
+        padding-bottom: 1rem;
+    }
+}
+@media (max-width: 640px){
+    .countdown-container .countdown-baslik h2{
+        font-size: 6rem;
+        margin-bottom: 5rem;
+        margin-left: 0rem;
+    }
+    .information-container .information-content .information-section .information-baslik h2{
+        color: var(--text-color);
+        font-size: 4rem;
+    }
+}
+@media (max-width: 320px){
+    .home-container .home-content .home-baslik h1{
+        font-size: 7.5rem;
+    }
+}
+@media (max-width: 344px){
+    .home-container .home-content .home-baslik h1{
+        font-size: 7rem;
+    }
+}
+@media  (max-width: 912px){
+    .home-container .home-content .home-baslik h1{
+        font-size: 15rem;
+    }
+    .countdown-container,
+    .delege-container,
+    .information-container {
+        margin: 10rem 0rem;
     }
     header{
         justify-content: space-around;
