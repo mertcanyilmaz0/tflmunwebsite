@@ -304,6 +304,9 @@ header .buttons button{
 .delege{
     margin: 0 10rem;
 }
+.delege-container .delege .delege-content {
+    margin: 5rem 0;
+}
 .delege-container .delege .delege-content h2{
     padding-bottom: 3rem;
     border-bottom: 0.1rem solid var(--text-color);
