@@ -417,6 +417,9 @@ footer .babalar{
     }
 }
 @media (max-width: 768px){
+    .home-container{
+        margin-top: 11rem;
+    }
     .countdown li,
     .countdown li p,
     .countdown li span{
@@ -437,9 +440,8 @@ footer .babalar{
     }
     header{
         justify-content: space-around;
-        position: sticky;
+        position: fixed;
         top: 0;
-
     }
     header .buttons button{
         display: inline;
