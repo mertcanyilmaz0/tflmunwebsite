@@ -443,6 +443,13 @@ footer .babalar{
         display: inline;
         margin: 4rem 0;
     }
+    header .navbar ul li.active{
+        border-bottom: 0.1rem solid var(--bg-color);
+        padding-bottom: 1rem;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
     .navbar {
         z-index: 100;
         position: fixed;
