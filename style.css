@@ -45,6 +45,7 @@ html::-webkit-scrollbar-thumb {
 
 body {
     background-color: var(--main-color);
+    overflow: hidden;
 }
 
 a {
@@ -522,3 +523,8 @@ footer .babalar{
     }
 }
 /* Responsive End */
+@supports (-webkit-touch-callout: none) {
+    body {
+      overflow: auto;
+    }
+  }
