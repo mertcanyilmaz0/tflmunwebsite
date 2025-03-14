@@ -457,7 +457,7 @@ footer .babalar{
         position: fixed;
         top: 0;
         right: -250px;
-        width: 25rem;
+        width: 36vw;
         margin-top: 11rem;
         height:  calc(100vh - 11rem) ;
         background-color: #4a0000;
