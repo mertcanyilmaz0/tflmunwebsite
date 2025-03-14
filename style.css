@@ -521,3 +521,375 @@ footer .babalar{
     }
 }
 /* Responsive End */
+@supports (-webkit-touch-callout: none){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        text-decoration: none;
+        transition: 0.2s ease;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    /* Base Html Codes */
+    html {
+        font-size: 62.5%;
+        overflow-x: hidden;
+        scroll-padding-top: 9rem;
+        scroll-behavior: smooth;
+    }
+    
+    html::-webkit-scrollbar {
+        width: 0.8rem;
+        height: auto;
+        background-color: var(--text-color);
+    }
+    
+    html::-webkit-scrollbar-track{
+        background-color: transparent;
+    }
+    
+    html::-webkit-scrollbar-thumb {
+        border-radius: 3rem;
+        background-color: var(--black-color);
+    }
+    
+    body {
+        background-color: var(--main-color);
+    }
+    
+    a {
+        color: var(--text-color);
+        text-decoration: none;
+    }
+    
+    section {
+        padding: 3.5rem 7%;
+    }
+    
+    /* Header Section Start */
+    header{
+        background-color:#4a0000;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: static;
+        z-index: 1000;
+    }
+    header .logo .tflmun-logo{
+        width: 8rem;
+        border-radius: 15%;
+    }
+    header .navbar .navbar-liste li, a{
+        color: var(--bg-color);
+    }
+    header .navbar ul li{
+        list-style: none;
+        color: var(--bg-color);
+        font-size: 1.5rem;
+        margin: 4rem 2.5rem 4rem 2.5rem;
+    }
+    header .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header .navbar li:hover{
+        border-bottom: 0.1rem solid var(--bg-color);
+        padding-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header .navbar ul li.active{
+        border-bottom: 0.1rem solid var(--bg-color);
+        padding-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header .buttons button{
+        z-index: 101;
+        color: var(--bg-color);
+        cursor: pointer;
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        background-color: transparent;
+        display: none;
+    }
+    /* Header Section End */
+    /* Main Section Start */
+    .home-container{
+        height:  calc(100vh - 13.4rem) ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(mun-arkaplan.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .home-container .home-content{
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+    .home-container .home-content .home-baslik{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .home-container .home-content .home-baslik h1{
+        color: var(--text-color);
+        font-size: 18rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+        /*     text-shadow: -1px -1px #ccc, 1px 1px #ccc, 2px 2px #ccc, 3px 3px #ccc, 4px 4px #ccc, 0.05rem 0.05rem #ccc; */
+        text-shadow: -1px -1px #52130d, 1px 1px#52130d, 2px 2px #52130d, 3px 3px #52130d, 4px 4px #52130d, 0.05rem 0.05rem #52130d, 6px 6px #52130d, 7px 7px #52130d;
+    }
+    /*Text Shadow'un Rem'li Hali*\
+    
+    /*  text-shadow: -0.01rem -0.01rem #52130d, 0.01rem 0.01rem #52130d, 0.02rem 0.02rem #52130d, 0.03rem 0.03rem #52130d, 0.04rem 0.04rem #52130d, 0.05rem 0.05rem #52130d,
+        0.06rem 0.06rem #52130d, 0.07rem 0.07rem #52130d; */
+    
+    /* Main Section End */
+    /* Countdown Start */
+    /* .countdown-container .countdown p{
+        padding: 2rem;
+        margin: 1rem 1rem;
+        color: var(--text-color);
+        font-size: 3.5rem;
+        border: 0.3rem solid var(--text-color);
+        border-radius: 0.5rem;
+        box-shadow: 9px 12px 18px -6px #000000;
+    }
+    .countdown-container .countdown .countdown-hour span,
+    .countdown-container .countdown .countdown-minute span,
+    .countdown-container .countdown .countdown-second span,
+    .countdown-container .countdown .countdown-day span{
+        color: var(--text-color);
+        font-size: 2.5rem;
+        padding: 0.2rem 0.2rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border: 0.3rem solid var(--text-color);
+        border-radius: 0.5rem;
+        box-shadow: 9px 12px 18px -6px #000000;
+    }
+    .countdown-container .countdown ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+    }
+    .countdown-container .countdown .countdow-double-point span{
+        color: var(--text-color);
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin: 1rem
+    }
+    .countdown-container .countdown-baslik h2{
+        font-size: 8rem;
+        text-align: center;
+        color: var(--text-color);
+        text-shadow: -1px -1px #ccc, 1px 1px #ccc, 2px 2px #ccc, 3px 3px #ccc, 4px 4px #ccc, 0.05rem 0.05rem #ccc;
+    } */
+    .countdown-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: var(--bg-color);
+        color: var(--text-color);
+        padding: 50px;
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .countdown .countdown-hour,
+    .countdown .countdown-minute,
+    .countdown .countdown-second{
+        margin-left: 4rem;
+    }
+    .countdown-baslik h2 {
+        font-size: 8rem;
+        margin-bottom: 8rem;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        text-shadow: -1px -1px #ccc, 1px 1px #ccc, 2px 2px #ccc, 3px 3px #ccc, 4px 4px #ccc, 0.05rem 0.05rem #ccc;
+    }
+    
+    .countdown ul {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        list-style: none;
+        padding: 0;
+    }
+    
+    .countdown li {
+        color: var(--text-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgba(166, 166, 166, 0.2);
+        padding: 1.5rem 2rem;
+        border-radius: 1rem;
+        min-width: 8rem;
+        text-align: center;
+        box-shadow: -1px -1px #ccc, 1px 1px #ccc, 2px 2px #ccc, 3px 3px #ccc, 4px 4px #ccc, 0.05rem 0.05rem #ccc;
+    }
+    
+    .countdown li p {
+        font-size: 4rem;
+        font-weight: bold;
+        margin: 0;
+    }
+    
+    .countdown li span {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        opacity: 0.8;
+    }
+    
+    .countdow-double-point span {
+        font-size: 4rem;
+        font-weight: bold;
+        color: #ffd700;
+        margin: 0 10px;
+    }
+    /* Countdown End */
+    /* İnformation Section Start */
+    .information-container{
+        margin-right: 10rem;
+        margin-left:10rem
+    }
+    .information-container .information-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .information-container .information-content .information-section{
+        align-items: center;
+        justify-content: center;
+    }
+    .information-container .information-content .information-iframe iframe{
+        width: 60rem;
+        height: 30rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+    .information-container .information-content .information-section .information-baslik h2{
+        color: var(--text-color);
+        font-size: 4rem;
+        margin-bottom: 5rem;
+    }
+    .information-container .information-content .information-section{
+        color: var(--text-color);
+        font-size: 2.2rem;
+    }
+    .information-container .information-content .information-section ul{
+        list-style-type: none;
+    }
+    .information-container .information-content .information-section li{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .information-container .information-content .information-section h2{
+        color: var(--text-color);
+        font-size: 3.2rem;
+    }
+    .information-container .information-content .information-section svg{
+        width: 3rem;
+    }
+    /* İnformation Section End */
+    /* Delege Section Start */
+    .delege-container{
+        background-color: var(--new-bg-color);
+    }
+    .delege{
+        margin: 0 10rem;
+    }
+    .delege-container .delege .delege-content h2{
+        padding-bottom: 3rem;
+        border-bottom: 0.1rem solid var(--text-color);
+        color: var(--text-color);
+        font-size: 3.2rem;
+        margin-bottom: 2rem;
+    }
+    .delege-container .delege .delege-content p{
+        color: var(--text-color);
+        font-size: 2.2rem;
+    }
+    /* Delege Section End */
+    /* Footer Section Start */
+    footer{
+        background-color: var(--new-bg-color);
+        width: 100vw;
+    }
+    footer .footer-list {
+        padding: 3rem 3rem;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .footer-list .footer-list-instagram svg{
+        cursor: pointer;
+        color: var(--text-color);
+        width: 3rem;
+        margin: 0 2rem;
+    }
+    footer .footer-list .footer-list-tiktok svg{
+        cursor: pointer;
+        color: var(--text-color);
+        width: 3rem;
+        margin: 0 2rem;
+    }
+    footer .footer-list .footer-list-instagram svg:hover,
+    footer .footer-list .footer-list-tiktok svg:hover{
+        opacity: 0.7;
+    }
+    /* Footer Section End */
+    /* Trol Section Start */
+    footer .babalar span{
+        font-size: 3.5rem;
+        color: var(--text-color);
+    }
+    footer .babalar p{
+        font-size: 3.5rem;
+        color: var(--text-color);
+        margin-bottom: 5rem;
+    }
+    footer .babalar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* Trol Section End */
+    /* Schedule Start*/
+    .schedule-container{
+        height:  calc(100vh - 13.4rem) ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .schedule-container .schedule-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .schedule-container .schedule-content h2{
+        color: var(--text-color);
+        font-size: 10rem;
+        text-shadow: -1px -1px #52130d, 1px 1px#52130d, 2px 2px #52130d, 3px 3px #52130d, 4px 4px #52130d, 0.05rem 0.05rem #52130d, 6px 6px #52130d;
+        text-align: center;
+    }
+    
+}
