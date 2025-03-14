@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --main-color: #fff;
+    --text-color: #841E15;
+    --bg-color: #fff;
+    --black-color: #000;
+    --new-bg-color: #ccc;
+    --border: 0.1rem solid #191919;
+}
+/* Commities Container */
+
+.commities-container ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+    column-gap: 50px;
+    justify-items: center;
+}
+/* For Mobile View (phones and small screens) */
+#bir.card-footer {
+    background-image: none;
+    background: none;
+}
+
+.card-footer0 {
+    padding: 0rem
+    /* Butonun en altta olması için flexbox'ı kullanabiliriz */
+}
+
+.card-footer0 button {
+    width: 40rem;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: inline-block;
+    border-bottom-right-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.858);
+    padding: 1rem 2.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 0 4px 6px #320000;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+}
+
+.card-footer0 button:hover {
+    box-shadow: 0 6px 8px #320000;
+}
+/* Commities Container */
+
+.commities-container ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+    column-gap: 50px;
+    justify-items: center;
+}
+
+
+/* Card Layout */
+
+.card {
+    height: 45rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    max-width: 40rem;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    background-color: white;
+    color: #374151;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+/* Commities Container */
+
+.commities-container ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+/*resim koyma kısmı*/
+
+.card#bir {
+    position: relative;
+    background-image: url('bayrakci.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* İçeriğin görünür kalmasını sağlamak için */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background: linear-gradient( rgba(12, 11, 11, 0.7));*/
+    /* Siyah ve kırmızı renk geçişi */
+    opacity: 0.5;
+    /* Şeffaflık ayarı */
+    z-index: 1;
+}
+
+.card * {
+    position: relative;
+    z-index: 2;
+}
+
+.card#iki {
+    position: relative;
+    background-image: url('calisanadam.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* İçeriğin görünür kalmasını sağlamak için */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card#üç {
+    position: relative;
+    background-image: url('kadinlar.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* İçeriğin görünür kalmasını sağlamak için */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card#dört {
+    position: relative;
+    background-image: url('yaksikliguvenlik.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* İçeriğin görünür kalmasını sağlamak için */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card#beş {
+    position: relative;
+    background-image: url('arab.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* İçeriğin görünür kalmasını sağlamak için */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-header {
+    height: 20rem;
+    /*burada eskiden       box-shadow: 0 4px 6px rgba(59, 130, 246, 0.4); vardı*/
+}
+
+.card-content {
+    padding: 1.5rem;
+    flex-grow: 1;
+    /* İçeriği yukarıdan aşağıya doğru büyütür */
+}
+
+.card-content h5 {
+    font-weight: bold;
+    color: white;
+    /* İç kısmı beyaz */
+    /* -webkit-text-stroke: 1px black;  Dış kısmı siyah ve kalınlık 2px */
+    text-shadow: 3px 3px 5px black;
+    margin-bottom: 0.5rem;
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.auuuu {
+    margin-bottom: 0.5rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.card-content p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.card-footer {
+    padding: 1.5rem;
+    /* Butonun en altta olması için flexbox'ı kullanabiliriz */
+}
+
+.card-footer button {
+    flex-direction: column;
+    justify-content: flex-end;
+    display: inline-block;
+    border-radius: 0.5rem;
+    background-color: rgba(25, 5, 5, 0.858);
+    padding: 1rem 2.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 0 4px 6px #320000;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+}
+
+.card-footer button:hover {
+    box-shadow: 0 6px 8px #320000;
+}
+
+.card-footer button:focus,
+.card-footer button:active {
+    opacity: 0.85;
+    box-shadow: none;
+}
+
+.lel {
+    color: var(--main-color);
+    font-size: 25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #841E15;
+    /*font-weight: bold;
+    text-shadow: -1px -1px #52130d, 1px 1px#52130d, 2px 2px #52130d, 3px 3px #52130d, 4px 4px #52130d, 0.05rem 0.05rem #52130d, 6px 6px #52130d, 7px 7px #52130d;*/
+}
+
+.description {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+#zen {
+    padding: 2 rem 0;
+}
+#ayayay{
+    margin-bottom: 8rem;
+}
+/* FAQ Section */
+
+.faq-container {
+    height:  calc(100vh - 13.4rem) ;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 10px;
+}
+
+.faq-item {
+    border-bottom: 1px solid var(--text-color);
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.faq-answer {
+    display: none;
+    padding-top: 0.5rem;
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.open .arrow {
+    transform: rotate(180deg);
+}
+
+.son {
+    width: 100%;
+    background-image: none;
+    position: relative;
+    background-color: #ffffff;
+    margin-top: auto;
+}
+/* FAQ END  */
+/* Responsive Start */
+@media (max-width: 1050px) {
+    .commities-container ul {
+        display: flex;
+        flex-direction: column;
+        /* Stack the items vertically */
+        gap: 2rem;
+        /* Add space between the stacked items */
+    }
+    .card {
+        width: 100%;
+        /* Make cards full-width on mobile */
+        justify-items: center;
+        text-align: center;
+    }
+    .commities-container {
+        justify-items: center;
+    }
+    #ayayay {
+        column-gap: 80px;
+    }
+}
+/* Responsive End */
