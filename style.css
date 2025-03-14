@@ -68,8 +68,7 @@ header{
     z-index: 1000;
 }
 header .logo .tflmun-logo{
-    width: 8rem;
-    border-radius: 15%;
+    width: 15rem;
 }
 header .navbar .navbar-liste li, a{
     color: var(--bg-color);
@@ -417,6 +416,9 @@ footer .babalar{
     }
 }
 @media (max-width: 768px){
+    header .logo .tflmun-logo{
+        margin-right: 25rem;
+    }
     .home-container{
         margin-top: 10rem;
     }
@@ -439,7 +441,7 @@ footer .babalar{
         margin: 10rem 0rem;
     }
     header{
-        justify-content: space-around;
+        justify-content: space-evenly;
         position: fixed;
         top: 0;
     }
@@ -522,6 +524,22 @@ footer .babalar{
 @media (max-width: 344px){
     .home-container .home-content .home-baslik h1{
         font-size: 7rem;
+    }
+}
+@media (max-width: 768px) and (max-height:1024px){
+    .navbar {
+        z-index: -100;
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 30vw;
+        margin-top: 10rem;
+        height:  calc(100vh - 10rem) ;
+        background-color: #4a0000;
+        transition: all 0.3s ease-in-out;
+        padding-top: 2rem;
+        border-radius: 1%;
+        align-items: start;
     }
 }
 /* Responsive End */
