@@ -194,7 +194,6 @@ header .buttons button{
     color: var(--text-color);
     padding: 50px;
     border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .countdown .countdown-hour,
 .countdown .countdown-minute,
@@ -254,7 +253,7 @@ header .buttons button{
 /* İnformation Section Start */
 .information-container{
     margin-right: 10rem;
-    margin-left:10rem
+    margin-left:10rem;
 }
 .information-container .information-content {
     display: flex;
@@ -267,7 +266,7 @@ header .buttons button{
     justify-content: center;
 }
 .information-container .information-content .information-iframe iframe{
-    width: 60rem;
+    width: 50rem;
     height: 30rem;
     align-items: center;
     justify-content: center;
@@ -356,10 +355,11 @@ footer .babalar span{
 footer .babalar p{
     font-size: 3.5rem;
     color: var(--text-color);
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 footer .babalar{
-    display: flex;
+    display: grid;
+    text-align: center;
     align-items: center;
     justify-content: center;
 }
@@ -390,6 +390,9 @@ footer .babalar{
     }
 }
 @media (max-width: 991px){
+    .information-container .information-content .information-iframe iframe{
+        margin: auto;
+    }
     .home-container .home-content .home-baslik h1{
         font-size: 15rem;
     }
@@ -419,6 +422,9 @@ footer .babalar{
     }
 }
 @media (max-width: 768px){
+    .information-container .information-content{
+        justify-content: center;
+    }
     .schedule-container{
         height: 100vh;
     }
