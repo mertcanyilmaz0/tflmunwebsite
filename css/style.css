@@ -123,7 +123,7 @@ header .buttons button{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(mun-arkaplan.jpg);
+    background-image: url(../img/mun-arkaplan.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -366,7 +366,7 @@ footer .babalar{
 /* Trol Section End */
 /* Schedule Start*/
 .schedule-container{
-    height:  calc(100vh - 13.4rem) ;
+    height:  calc(100vh - 13.5rem) ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -419,6 +419,9 @@ footer .babalar{
     }
 }
 @media (max-width: 768px){
+    .schedule-container{
+        height: 100vh;
+    }
     header .logo .tflmun-logo{
         margin-right: 25rem;
     }
