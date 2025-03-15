@@ -1,6 +1,6 @@
 # TFLMUN Web Site
 ## Açıklama
-Bu kodlar TFLMUN resmi web sitesinin kodlarıdır. TFlMUN IT ekibi sayesinde oluşturulmuştur
+Bu kodlar TFLMUN resmi web sitesinin kodlarıdır. TFLMUN IT ekibi sayesinde oluşturulmuştur
 ### Kullanılan Diller
 - HTML
 - CSS
