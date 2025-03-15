@@ -1,12 +1,12 @@
 # TFLMUN Web Site
 ### Açıklama
-Bu kodlar TFLMUN resmi web sitesinin kodlarıdır. **TFLMUN IT ekibi** sayesinde oluşturulmuştur
----
+Bu kodlar TFLMUN resmi web sitesinin kodlarıdır. TFLMUN IT ekibi sayesinde oluşturulmuştur
+___
 ### Kullanılan Diller
 + HTML
 + CSS
 + JS
----
+___
 ### Developerlar
 Mert & Furkan
 İletişim:
