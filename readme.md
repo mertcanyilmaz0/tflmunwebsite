@@ -9,6 +9,9 @@ ___
 ___
 ### Developerlar
 Mert & Furkan
+
 İletişim:
+
 [Mert İnstagram Hesabı](https://www.instagram.com/ylmazmertcan_/)
+
 [Furkan İnstagram Hesabı](https://www.instagram.com/furkantas2010/)
