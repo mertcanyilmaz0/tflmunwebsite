@@ -63,7 +63,7 @@ header{
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     position: static;
     z-index: 1000;
 }
@@ -419,6 +419,63 @@ footer .babalar{
     }
     .home-container{
         height: calc(100vh - 6rem);
+    }
+    header .logo .tflmun-logo{
+        margin-right: 25rem;
+    }
+    header{
+        justify-content: space-evenly;
+        position: fixed;
+        top: 0;
+    }
+    header .buttons button{
+        display: inline;
+        margin: 4rem 0;
+    }
+    header .navbar ul li.active{
+        border-bottom: 0.1rem solid var(--bg-color);
+        padding-bottom: 1rem;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+    .navbar {
+        z-index: 100;
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 22vw;
+        margin-top: 10rem;
+        height:  calc(100vh - 10rem) ;
+        background-color: #4a0000;
+        transition: all 0.3s ease-in-out;
+        padding-top: 2rem;
+        border-radius: 1%;
+        align-items: start;
+    }
+    
+    .navbar .navbar-list {
+        display: grid;
+        grid-template-rows: 1fr;
+        align-items: start;
+        list-style-type: none;
+    }
+    
+    .navbar .navbar-list .navbar-list-eleman {
+        padding: 15px;
+        color: #fff;
+    }
+    
+    .navbar .navbar-list .navbar-list-eleman a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        transition: 0.2 ease-in;
+    }
+    
+    .navbar .navbar-list .navbar-list-eleman a:hover {
+        border-bottom: 0.1rem solid #fff;
+        padding-bottom: 1rem;
     }
 }
 @media (max-width: 768px){
