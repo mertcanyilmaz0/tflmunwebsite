@@ -319,11 +319,13 @@ header .buttons button{
 }
 /* İnformation Section End */
 /* About Us Section Start */
-.about-us-container{
+/* .about-us-container{
     background-color: var(--new-bg-color);
-}
+} */
 .about-us{
+    height:  calc(100vh - 13.4rem) ;
     margin: 0 10rem;
+    margin-bottom: 7rem;
 }
 .about-us-container .about-us .about-us-content{
     margin: 5rem 0;
@@ -546,6 +548,10 @@ footer .babalar{
     }
 }
 @media (max-width: 991px){
+    .about-us{
+        margin-top: 11rem;
+        height: 100vh;
+    }
     header .buttons{
         margin-left: 0rem;
     }
@@ -560,7 +566,7 @@ footer .babalar{
         font-size: 15rem;
     }
     html {
-        font-size: 39%;
+        font-size: 46%;
     }
     section {
         padding: 1rem;
@@ -728,6 +734,9 @@ footer .babalar{
     }
 }
 @media (max-width: 640px){
+    header .logo{
+        margin-right: 10rem;
+    }
     .countdown-container .countdown-baslik h2{
         font-size: 6rem;
         margin-bottom: 5rem;
@@ -736,6 +745,19 @@ footer .babalar{
     .information-container .information-content .information-section .information-baslik h2{
         color: var(--text-color);
         font-size: 4rem;
+    }
+}
+@media (max-width: 360px){
+    header .logo{
+        margin-right: 10rem;
+    }
+    header .buttons button{
+        margin-right: 5rem;
+    }
+}
+@media (max-width: 297px){
+    header .logo{
+        margin-right: 6rem;
     }
 }
 @media (max-width: 320px){

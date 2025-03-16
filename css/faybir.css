@@ -106,7 +106,7 @@
 
 .card#iki {
     position: relative;
-    background-image: url(../img/calisanadam.jpg);/* calisanadam.jpg */
+    background-image: url(../img/calisanadam.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -114,7 +114,6 @@
     align-items: center;
     justify-content: center;
     color: white;
-    /* İçeriğin görünür kalmasını sağlamak için */
     font-size: 20px;
     font-weight: bold;
 }
