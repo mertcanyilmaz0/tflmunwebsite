@@ -1,4 +1,4 @@
-document.querySelector("#menu-btn").addEventListener("click", function (event) {
+document.querySelector("#menu-btn").addEventListener("click", function(event) {
     var navbar = document.querySelector("#navbar");
     var dropDownNavbar = document.querySelector("#dropdownNav");
     if (navbar.style.right === "0px") {
@@ -15,7 +15,7 @@ document.querySelector("#menu-btn").addEventListener("click", function (event) {
     event.stopPropagation();
 });
 
-document.addEventListener("click", function (event) {
+document.addEventListener("click", function(event) {
     var navbar = document.querySelector("#navbar");
     var menuBtn = document.querySelector("#menu-btn");
 

@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 :root {
     --main-color: #fff;
     --text-color: #841E15;
@@ -25,8 +24,7 @@
     flex-direction: column;
     justify-content: flex-end;
     display: inline-block;
-/*     border-bottom-right-radius: 0.75rem;
-    border-bottom-left-radius: 0.75rem; */
+    border-bottom-left-radius: 0.75rem;
     background-color: rgba(255, 255, 255, 0.858);
     padding: 1rem 2.5rem;
     text-align: center;
@@ -41,7 +39,8 @@
     border: none;
     z-index: 1;
 }
-.card-agent-text{
+
+.card-agent-text {
     width: 40rem;
     flex: 1;
     flex-direction: column;
@@ -62,6 +61,7 @@
     border: none;
     z-index: 2;
 }
+
 .card-footer0 button:hover {
     box-shadow: 0 6px 8px #320000;
 }
@@ -94,7 +94,8 @@
 
 .card#bir {
     position: relative;
-    background-image: url(../img/bayrakci.jpg);/* bayrakci.jpg */
+    background-image: url(../img/bayrakci.jpg);
+    /* bayrakci.jpg */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -125,6 +126,8 @@
     position: relative;
     z-index: 2;
 }
+
+
 /* .card#iki{
     position: relative;
     background-image: url(../img/calisanadam.jpg);
@@ -139,6 +142,7 @@
     font-weight: bold;
     height: 20rem;
 } */
+
 .card#iki {
     position: relative;
     background-image: url(../img/calisanadam.jpg);
@@ -152,18 +156,45 @@
     font-size: 20px;
     font-weight: bold;
 }
-.carp-container{
-    display: none;
+
+.close-btn {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #3498db;
+    /* Arka plan rengi */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.close-btn::before,
+.close-btn::after {
+    content: "";
     position: absolute;
-    top: 0;
-    right: 0;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    /* Çarpı işaretinin rengi */
+    transform-origin: center;
+    transition: transform 0.3s ease;
 }
-.carp-container svg{
-    width: 5rem;
+
+.close-btn::before {
+    transform: rotate(45deg);
+    /* İlk çapraz çizgi */
 }
+
+.close-btn::after {
+    transform: rotate(-45deg);
+    /* İkinci çapraz çizgi */
+}
+
 .card#üç {
     position: relative;
-    background-image: url(../img/kadinlar.jpg);/* kadinlar.jpg */
+    background-image: url(../img/kadinlar.jpg);
+    /* kadinlar.jpg */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -178,7 +209,8 @@
 
 .card#dört {
     position: relative;
-    background-image: url(../img/yaksikliguvenlik.jpg);/* yaksikliguvenlik.jpg */
+    background-image: url(../img/yaksikliguvenlik.jpg);
+    /* yaksikliguvenlik.jpg */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -193,7 +225,8 @@
 
 .card#beş {
     position: relative;
-    background-image: url(../img/arab.jpg);/* arab.jpg */
+    background-image: url(../img/arab.jpg);
+    /* arab.jpg */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -247,6 +280,49 @@
     /* Butonun en altta olması için flexbox'ı kullanabiliriz */
 }
 
+.hidden {
+    display: none;
+}
+
+#closeButton {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.carpi {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    /* Arka plan rengi */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.carpi::before,
+.carpi::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    /* Çarpı işaretinin rengi */
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.carpi::before {
+    transform: rotate(45deg);
+    /* İlk çapraz çizgi */
+}
+
+.carpi::after {
+    transform: rotate(-45deg);
+    /* İkinci çapraz çizgi */
+}
+
 .card-footer button {
     flex-direction: column;
     justify-content: flex-end;
@@ -278,6 +354,7 @@
 .card-footer0 button {
     height: 5.2rem;
 }
+
 .description {
     font-size: 16px;
     color: #333;
@@ -298,6 +375,50 @@
 #ayayay {
     margin-bottom: 8rem;
 }
+
+.hidden {
+    display: none;
+}
+
+#closeButton {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.carpi {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    /* Arka plan rengi /
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.carpi::before,
+.carpi::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    / Çarpı işaretinin rengi /
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.carpi::before {
+    transform: rotate(45deg);
+    / İlk çapraz çizgi /
+}
+
+.carpi::after {
+    transform: rotate(-45deg);
+    / İkinci çapraz çizgi */
+}
+
 
 /* Responsive Start */
 
@@ -347,10 +468,12 @@
         height: 7.8rem;
     }
 }
-@media (max-width: 991px){
-    #ayayay{
+
+@media (max-width: 991px) {
+    #ayayay {
         margin-top: 15rem;
     }
 }
+
 
 /* Responsive End */
