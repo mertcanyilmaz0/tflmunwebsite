@@ -27,8 +27,8 @@ document.addEventListener("click", function (event) {
 document.querySelector("#dropdown").addEventListener("click", function(event) {
     var dropDownNavbar = document.querySelector("#dropdownNav");
     var dropDown = document.querySelector("#dropdown");
-
     var screenWidth = window.innerWidth;
+
     if (screenWidth <= 991) {
         if (dropDownNavbar.style.opacity === "0" || dropDownNavbar.style.opacity === "") {
             dropDownNavbar.style.visibility = 'visible';
@@ -40,10 +40,10 @@ document.querySelector("#dropdown").addEventListener("click", function(event) {
         } else {
             dropDownNavbar.style.visibility = 'hidden';
             dropDownNavbar.style.opacity = "0";
-            console.log("görünmez");
             dropDown.style.borderBottom = '';
             dropDown.style.paddingBottom = '';
             dropDown.style.display = '';
+            console.log("görünmez");
         }
     } else {
 
@@ -71,6 +71,9 @@ window.addEventListener("resize", function() {
     if (screenWidth <= 991) {
         dropDownNavbar.style.visibility = 'hidden';
         dropDownNavbar.style.opacity = "0";
+        dropDown.style.borderBottom = '';
+        dropDown.style.paddingBottom = '';
+        dropDown.style.display = '';
         console.log("görünmez");
     }
 });

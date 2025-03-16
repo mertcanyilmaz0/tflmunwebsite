@@ -939,7 +939,7 @@ footer .babalar{
         transition: all 0.3s ease-in-out;
         padding-top: 2rem;
         border-radius: 1%;
-        align-items: start;;
+        align-items: start;
     }
 }
 @media (max-width: 768px){
@@ -1031,7 +1031,6 @@ footer .babalar{
         padding-bottom: 1rem;
     }
 }
-
 @media(max-width:418px){
     .about-us{
         height: auto;
