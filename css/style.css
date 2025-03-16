@@ -314,6 +314,28 @@ header .buttons button{
     width: 3rem;
 }
 /* İnformation Section End */
+/* About Us Section Start */
+.about-us-container{
+    background-color: var(--new-bg-color);
+}
+.about-us{
+    margin: 0 10rem;
+}
+.about-us-container .about-us .about-us-content{
+    margin: 5rem 0;
+}
+.about-us-container .about-us .about-us-content h2{
+    padding-bottom: 3rem;
+    border-bottom: 0.1rem solid var(--text-color);
+    color: var(--text-color);
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+}
+.about-us-container .about-us .about-us-content p{
+    color: var(--text-color);
+    font-size: 2.2rem;
+}
+/* About Us Section End */
 /* Delege Section Start */
 .delege-container{
     background-color: var(--new-bg-color);
