@@ -949,6 +949,9 @@ footer .babalar{
     .schedule-container{
         height: 100vh;
     }
+    section{
+        padding: 0.2rem;
+    }
     header .logo{
         margin-right: 25rem;
     }
@@ -1028,8 +1031,11 @@ footer .babalar{
         padding-bottom: 1rem;
     }
 }
-@media(max-width:418px){
 
+@media(max-width:418px){
+    .about-us{
+        height: auto;
+    }
 }
 @media (max-width: 640px){
     section{
