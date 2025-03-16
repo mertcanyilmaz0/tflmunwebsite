@@ -58,6 +58,10 @@ section {
 }
 
 /* Header Section Start */
+header .logo:hover .tflmun-logo,
+header .logo:hover .logo-text{
+    opacity: 0.9;
+}
 header{
     background-color:#4a0000;
     width: 100vw;
