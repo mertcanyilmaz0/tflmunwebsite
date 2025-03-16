@@ -25,6 +25,28 @@
     flex-direction: column;
     justify-content: flex-end;
     display: inline-block;
+/*     border-bottom-right-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem; */
+    background-color: rgba(255, 255, 255, 0.858);
+    padding: 1rem 2.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    padding-bottom: 10rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--text-color);
+    box-shadow: 0 4px 6px #320000;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+    z-index: 1;
+}
+.card-agent-text{
+    width: 40rem;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: inline-block;
     border-bottom-right-radius: 0.75rem;
     border-bottom-left-radius: 0.75rem;
     background-color: rgba(255, 255, 255, 0.858);
@@ -33,13 +55,13 @@
     font-size: 1.3rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: white;
+    color: var(--text-color);
     box-shadow: 0 4px 6px #320000;
     cursor: pointer;
     transition: all 0.3s;
     border: none;
+    z-index: 2;
 }
-
 .card-footer0 button:hover {
     box-shadow: 0 6px 8px #320000;
 }
@@ -103,7 +125,20 @@
     position: relative;
     z-index: 2;
 }
-
+/* .card#iki{
+    position: relative;
+    background-image: url(../img/calisanadam.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 20rem;
+} */
 .card#iki {
     position: relative;
     background-image: url(../img/calisanadam.jpg);
@@ -116,6 +151,15 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
+}
+.carp-container{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.carp-container svg{
+    width: 5rem;
 }
 .card#üç {
     position: relative;
