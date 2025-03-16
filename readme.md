@@ -15,4 +15,3 @@ Mert & Furkan
 [Mert İnstagram Hesabı](https://www.instagram.com/ylmazmertcan_/)
 
 [Furkan İnstagram Hesabı](https://www.instagram.com/furkantas2010/)
-###lingan guli guli guli
