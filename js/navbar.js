@@ -24,59 +24,6 @@ document.addEventListener("click", function(event) {
         navbar.style.right = "-250px";
     }
 });
-/* document.querySelector("#dropdown").addEventListener("click", function(event) {
-    var dropDownNavbar = document.querySelector("#dropdownNav");
-    var dropDown = document.querySelector("#dropdown");
-    var screenWidth = window.innerWidth;
-
-    if (screenWidth <= 991) {
-        if (dropDownNavbar.style.opacity === "0" || dropDownNavbar.style.opacity === "") {
-            dropDownNavbar.style.visibility = 'visible';
-            dropDownNavbar.style.opacity = "1";
-            dropDown.style.borderBottom = '0.1rem solid var(--bg-color)';
-            dropDown.style.paddingBottom = '1rem';
-            dropDown.style.display = 'flex';
-            console.log("görünür");
-        } else {
-            dropDownNavbar.style.visibility = 'hidden';
-            dropDownNavbar.style.opacity = "0";
-            dropDown.style.borderBottom = '';
-            dropDown.style.paddingBottom = '';
-            dropDown.style.display = '';
-            console.log("görünmez");
-        }
-    } else {
-
-        if (dropDownNavbar.style.opacity === "0" || dropDownNavbar.style.opacity === "") {
-            dropDownNavbar.style.visibility = 'visible';
-            dropDownNavbar.style.opacity = "1";
-            dropDown.style.borderBottom = '0.1rem solid var(--bg-color)';
-            dropDown.style.paddingBottom = '1rem';
-            dropDown.style.display = 'flex';
-            console.log("görünür");
-        } else {
-            dropDownNavbar.style.visibility = 'hidden';
-            dropDownNavbar.style.opacity = "0";
-            dropDown.style.borderBottom = '';
-            dropDown.style.paddingBottom = '';
-            dropDown.style.display = '';
-            console.log("görünmez");
-        }
-    }
-});
-window.addEventListener("resize", function() {
-    var dropDownNavbar = document.querySelector("#dropdownNav");
-    var screenWidth = window.innerWidth;
-
-    if (screenWidth <= 991) {
-        dropDownNavbar.style.visibility = 'hidden';
-        dropDownNavbar.style.opacity = "0";
-        dropDown.style.borderBottom = '';
-        dropDown.style.paddingBottom = '';
-        dropDown.style.display = '';
-        console.log("görünmez");
-    }
-}); */
 document.querySelector("#dropdown").addEventListener("click", function(event) {
     var dropDownNavbar = document.querySelector("#dropdownNav");
     var dropDown = document.querySelector("#dropdown");

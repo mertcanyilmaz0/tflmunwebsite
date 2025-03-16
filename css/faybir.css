@@ -8,49 +8,6 @@
     --border: 0.1rem solid #191919;
 }
 
-.hidden {
-    display: none;
-}
-
-#closeButton {
-    font-size: 2rem;
-    cursor: pointer;
-}
-
-.carpi {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    /* Arka plan rengi */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    margin-left: auto;
-}
-
-.carpi::before,
-.carpi::after {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 2px;
-    background-color: white;
-    /* Çarpı işaretinin rengi */
-    transform-origin: center;
-    transition: transform 0.3s ease;
-}
-
-.carpi::before {
-    transform: rotate(45deg);
-    /* İlk çapraz çizgi */
-}
-
-.carpi::after {
-    transform: rotate(-45deg);
-    /* İkinci çapraz çizgi */
-}
-
 #bir.card-footer {
     background-image: none;
     background: none;
@@ -104,6 +61,14 @@
     border: none;
     z-index: 2;
 }
+.carp-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.carp-container svg {
+    width: 5rem;
+}
 
 .card-footer0 button:hover {
     box-shadow: 0 6px 8px #320000;
@@ -138,7 +103,6 @@
 .card#bir {
     position: relative;
     background-image: url(../img/bayrakci.jpg);
-    /* bayrakci.jpg */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -146,7 +110,6 @@
     align-items: center;
     justify-content: center;
     color: white;
-    /* İçeriğin görünür kalmasını sağlamak için */
     font-size: 20px;
     font-weight: bold;
 }
@@ -171,7 +134,7 @@
 }
 
 
-/* .card#iki{
+.card#iki{
     position: relative;
     background-image: url(../img/calisanadam.jpg);
     background-position: center;
@@ -184,9 +147,9 @@
     font-size: 20px;
     font-weight: bold;
     height: 20rem;
-} */
+}
 
-.card#iki {
+/* .card#iki {
     position: relative;
     background-image: url(../img/calisanadam.jpg);
     background-position: center;
@@ -198,7 +161,7 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
-}
+} */
 
 .close-btn {
     position: relative;
