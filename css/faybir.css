@@ -8,6 +8,49 @@
     --border: 0.1rem solid #191919;
 }
 
+.hidden {
+    display: none;
+}
+
+#closeButton {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.carpi {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    /* Arka plan rengi */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.carpi::before,
+.carpi::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    /* Çarpı işaretinin rengi */
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.carpi::before {
+    transform: rotate(45deg);
+    /* İlk çapraz çizgi */
+}
+
+.carpi::after {
+    transform: rotate(-45deg);
+    /* İkinci çapraz çizgi */
+}
+
 #bir.card-footer {
     background-image: none;
     background: none;
