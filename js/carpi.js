@@ -17,6 +17,7 @@ document.querySelector("#readMoreIki").addEventListener("click", function(){
         cardFooter2.style.boxShadow = ""
         cardFooter2.style.border = "solid"
         readMore2.style.display = "none"
+        card2.style.backgroundPosition = "top"
         degisken2 = false
     } else {
         cardFooter2.style.borderRight = ""
@@ -53,6 +54,7 @@ document.querySelector("#carpIki").addEventListener("click", function(){
         cardFooter2.style.borderBottomRightRadius = "0.75rem"
         cardFooter2.style.boxShadow = "0 4px 6px #320000"
         cardFooter2.style.border = "none"
+        card2.style.backgroundPosition = "center"
         degisken2 = true
     }
 });
@@ -75,6 +77,7 @@ document.querySelector("#readMoreBir").addEventListener("click", function(){
         cardFooter1.style.boxShadow = ""
         cardFooter1.style.border = "solid"
         readMore1.style.display = "none"
+        card1.style.backgroundPosition = "top"
         degisken1 = false
     } else {
         cardFooter1.style.borderRight = ""
@@ -111,6 +114,7 @@ document.querySelector("#carpBir").addEventListener("click",function(){
         cardFooter1.style.borderBottomRightRadius = "0.75rem"
         cardFooter1.style.boxShadow = "0 4px 6px #320000"
         cardFooter1.style.border = "none"
+        card1.style.backgroundPosition = "center"
         degisken1 = true
     }
 });
@@ -133,6 +137,7 @@ document.querySelector("#readMoreUc").addEventListener("click", function(){
         cardFooter3.style.boxShadow = ""
         cardFooter3.style.border = "solid"
         readMore3.style.display = "none"
+        card3.style.backgroundPosition = "top"
         degisken3 = false
     } else {
         cardFooter3.style.borderRight = ""
@@ -169,6 +174,7 @@ document.querySelector("#carpUc").addEventListener("click",function(){
         cardFooter3.style.borderBottomRightRadius = "0.75rem"
         cardFooter3.style.boxShadow = "0 4px 6px #320000"
         cardFooter3.style.border = "none"
+        card3.style.backgroundPosition = "center"
         degisken3 = true
     }
 })
@@ -191,6 +197,7 @@ document.querySelector("#readMoreDort").addEventListener("click", function(){
         cardFooter4.style.boxShadow = ""
         cardFooter4.style.border = "solid"
         readMore4.style.display = "none"
+        card4.style.backgroundPosition = "top"
         degisken4 = false
     } else {
         cardFooter4.style.borderRight = ""
@@ -227,6 +234,7 @@ document.querySelector("#carpDort").addEventListener("click", function(){
         cardFooter4.style.borderBottomRightRadius = "0.75rem"
         cardFooter4.style.boxShadow = "0 4px 6px #320000"
         cardFooter4.style.border = "none"
+        card4.style.backgroundPosition = "center"
         degisken4 = true
     }
 })
@@ -249,6 +257,7 @@ document.querySelector("#readMoreBes").addEventListener("click", function(){
         cardFooter5.style.boxShadow = ""
         cardFooter5.style.border = "solid"
         readMore5.style.display = "none"
+        card5.style.backgroundPosition = "top"
         degisken5 = false
     } else {
         cardFooter5.style.borderRight = ""
@@ -285,6 +294,7 @@ document.querySelector("#carpBes").addEventListener("click", function(){
         cardFooter5.style.borderBottomRightRadius = "0.75rem"
         cardFooter5.style.boxShadow = "0 4px 6px #320000"
         cardFooter5.style.border = "none"
+        card5.style.backgroundPosition = "center"
         degisken5 = true
     }
 })
