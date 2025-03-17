@@ -412,6 +412,11 @@ header .buttons button{
     font-size: 2.2rem;
     text-align: justify;
 }
+.delege-container .delege .delege-content span{
+    color: var(--text-color);
+    font-size: 2.2rem;
+    text-align: start;
+}
 /* Delege Section End */
 /* Footer Section Start */
 footer{
