@@ -536,6 +536,7 @@ footer .babalar{
     height: calc(100vh);
     width: 80%;
     margin: auto;
+    margin-bottom: 5rem;
     padding: 2rem;
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -1039,6 +1040,10 @@ footer .babalar{
     }
 }
 @media(max-width:418px){
+    .faq-container{
+        margin-bottom: 5rem;
+        height: auto;
+    }
     .about-us{
         height: auto;
     }

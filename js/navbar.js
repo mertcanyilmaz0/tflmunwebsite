@@ -36,7 +36,6 @@ document.querySelector("#dropdown").addEventListener("click", function(event) {
             dropDown.style.borderBottom = '0.1rem solid var(--bg-color)';
             dropDown.style.paddingBottom = '1rem';
             dropDown.style.display = 'flex';
-            console.log("görünür");
         } else {
             closeDropdown();
         }
@@ -47,7 +46,6 @@ document.querySelector("#dropdown").addEventListener("click", function(event) {
             dropDown.style.borderBottom = '0.1rem solid var(--bg-color)';
             dropDown.style.paddingBottom = '1rem';
             dropDown.style.display = 'flex';
-            console.log("görünür");
         } else {
             closeDropdown();
         }
@@ -74,5 +72,4 @@ function closeDropdown() {
     dropDown.style.borderBottom = '';
     dropDown.style.paddingBottom = '';
     dropDown.style.display = '';
-    console.log("görünmez");
 }
