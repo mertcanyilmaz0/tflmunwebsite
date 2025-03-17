@@ -473,7 +473,7 @@ footer .babalar{
 .schedule-container .schedule-content h2{
     color: var(--text-color);
     font-size: 10rem;
-    text-shadow: -1px -1px #52130d, 1px 1px#52130d, 2px 2px #52130d, 3px 3px #52130d, 4px 4px #52130d, 0.05rem 0.05rem #52130d, 6px 6px #52130d;
+/*     text-shadow: -1px -1px #52130d, 1px 1px#52130d, 2px 2px #52130d, 3px 3px #52130d, 4px 4px #52130d, 0.05rem 0.05rem #52130d, 6px 6px #52130d; */
     text-align: center;
 }
 /* Schedule End */
