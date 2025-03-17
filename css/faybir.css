@@ -42,6 +42,7 @@
 }
 .card-agent-text p{
     padding-top: 2rem;
+    text-align: justify;
 }
 .card-agent-text {
     display: none;
