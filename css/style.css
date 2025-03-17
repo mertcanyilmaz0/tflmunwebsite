@@ -834,7 +834,7 @@ footer .babalar{
         margin-left: 0rem;
     }
     .faq-container{
-        margin: 0rem 7rem;
+        align-items: center;
         margin-top: 10rem;
     }
     .information-container .information-content .information-iframe iframe{
