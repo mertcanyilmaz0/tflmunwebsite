@@ -120,6 +120,7 @@ header .logo .tflmun-logo{
     height: 8rem;
     margin-bottom: 2rem;
     margin-right: -3rem;
+    margin-left: -5rem;
     align-items: center;
      justify-content: center; 
 }
@@ -162,6 +163,7 @@ header .navbar ul li.active{
 }
 header .buttons{
     margin-left: 15rem;
+    margin-right: -2rem;
 }
 header .buttons button{
     z-index: 101;
@@ -932,16 +934,19 @@ footer .babalar{
         z-index: 1;
         position: fixed;
         bottom: 0;
-        right: 0;
+        right: 22vw;
         opacity: 0;
         width: 22vw;
-        height: 25rem;
-        margin-top: 58vh;
+        height: 100vh;
+        margin-top:69vh;
         background-color: #4a0000;
         transition: all 0.3s ease-in-out;
         padding-top: 2rem;
         border-radius: 1%;
         align-items: start;
+    }
+    .drowpdown-list{
+    padding-bottom: 2rem;
     }
 }
 @media (max-width: 768px){
