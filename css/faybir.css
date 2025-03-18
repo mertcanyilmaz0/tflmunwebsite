@@ -272,11 +272,11 @@
     padding: 1.5rem;
     flex-grow: 1;
     position: absolute;
-
 }
 
 .card-content h5 {
     font-weight: bold;
+    font-style: normal;
     color: var(--bg-color);
     text-shadow: 3px 3px 5px black;
     margin-bottom: 0.5rem;
