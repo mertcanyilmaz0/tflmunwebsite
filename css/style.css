@@ -118,11 +118,11 @@ header .logo .tflmun-logo{
     display: inline-block;
     vertical-align: middle;
     height: 8rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.65rem;
     margin-right: -3rem;
     margin-left: -5rem;
     align-items: center;
-     justify-content: center; 
+    justify-content: center; 
 }
 header .logo .logo-text{
     display: inline-block;

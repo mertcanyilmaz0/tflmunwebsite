@@ -192,7 +192,7 @@
 
 .card#cardBir {
     position: relative;
-    background-image: url(../img/bayrakci.jpg);
+    background-image: url(../img/soldier.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -251,7 +251,7 @@
 
 .card#cardBes {
     position: relative;
-    background-image: url(../img/arab.jpg);
+    background-image: url(../img/gezegenler.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
