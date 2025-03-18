@@ -182,7 +182,7 @@ header .buttons button{
     font-size: 16rem;
     margin-bottom: 1rem;
     font-weight: bold;
-     text-shadow: -1px -1px #ccc, 1px 1px #ccc, 2px 2px #ccc, 3px 3px #ccc, 4px 4px #ccc, 5px 5px #ccc/* , 6px 6px #ccc, 7px 7px #ccc */;
+/*     text-shadow: -1px -1px #ccc, 1px 1px #ccc, 2px 2px #ccc, 3px 3px #ccc, 4px 4px #ccc, 5px 5px #ccc; */
 /*     text-shadow: -1px -1px #52130d, 1px 1px#52130d, 2px 2px #52130d, 3px 3px #52130d, 4px 4px #52130d, 5px 5px #52130d, 6px 6px #52130d, 7px  7px #52130d;*\
 /*     text-shadow: -1px -1px 0 #cccccc, 1px 1px 0 #cccccc, 2px 2px 0 #cccccc, 3px 3px 0 #cccccc, 4px 4px #cccccc, 5px 5px #cccccc, 6px 6px 0 #cccccc, 6px 6px 0 #cccccc, 7px 7px #ccc; */
 }
