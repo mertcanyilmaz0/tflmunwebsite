@@ -909,6 +909,16 @@ footer .babalar{
     .home-container .home-content .home-baslik h1{
         font-size: 7rem;
     }
+    .countdown li,
+    .countdown li p,
+    .countdown li span{
+        font-size: 1.5rem;
+    }
+    .countdown .countdown-hour,
+    .countdown .countdown-minute,
+    .countdown .countdown-second{
+        margin-left: 0.15rem;
+    }
 }
 @media (max-width: 768px) and (max-height:1024px){
     .navbar {
