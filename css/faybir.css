@@ -352,13 +352,13 @@
         column-gap: 80px;
     }
 }
-
+/* 
 @media (min-width: 1048px) and (max-width: 1500px) {
     .card-footer0 button {
         width: 32rem;
         height: 7.8rem;
     }
-}
+} */
 
 /* @media (min-width: 699px) and (max-width: 991px) {
     .card {
