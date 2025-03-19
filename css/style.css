@@ -17,8 +17,7 @@
     border: none;
     text-decoration: none;
     transition: 0.2s ease;
-/*     font-family: "Poppins", sans-serif; */
-font-family: 'Times New Roman', Times, serif;
+    font-family: "Poppins", sans-serif; 
 }
 
 /* Base Html Codes */
@@ -977,6 +976,22 @@ footer .babalar{
         padding-top: 2rem;
         border-radius: 1%;
         align-items: start;
+    }
+}
+@media (max-width:1024px){
+    header .logo a{
+        display: flex;
+    }
+    header .logo .tflmun-logo{
+        margin-left: -2rem;
+        height: 6.5rem;
+        margin-right: -3rem;
+    }
+    header .logo .logo-text{
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        display: flex;
     }
 }
 /* Responsive End */
