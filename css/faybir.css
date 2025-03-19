@@ -190,7 +190,7 @@
 
 .card#cardBir {
     position: relative;
-    background-image: url(../img/soldier.jpg);
+    background-image: url(../img/disec_background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -204,7 +204,7 @@
 
 .card#cardIki {
     position: relative;
-    background-image: url(../img/calisanadam.jpg);
+    background-image: url(../img/legal_background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -221,7 +221,7 @@
 
 .card#cardUc {
     position: relative;
-    background-image: url(../img/kadinlar.jpg);
+    background-image: url(../img/unwomen_bacgkround.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -235,7 +235,7 @@
 
 .card#cardDort {
     position: relative;
-    background-image: url(../img/yaksikliguvenlik.jpg);
+    background-image: url(../img/unodc_backgorund.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -249,7 +249,7 @@
 
 .card#cardBes {
     position: relative;
-    background-image: url(../img/kirmizi_gezegen.jpg);
+    background-image: url(../img/fcc_background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
