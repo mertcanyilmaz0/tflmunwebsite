@@ -17,7 +17,8 @@
     border: none;
     text-decoration: none;
     transition: 0.2s ease;
-    font-family: "Poppins", sans-serif;
+/*     font-family: "Poppins", sans-serif; */
+font-family: 'Times New Roman', Times, serif;
 }
 
 /* Base Html Codes */
