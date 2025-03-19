@@ -982,7 +982,7 @@ footer .babalar{
         align-items: start;
     }
 }
-@media (min-width:1024px),(max-width:1050px){
+@media (min-device-width: 768px) and (max-device-width: 1024px){
     header .logo a{
         display: flex;
     }
