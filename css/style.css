@@ -324,6 +324,7 @@ header .buttons button{
 .information-container{
     margin-right: 10rem;
     margin-left:10rem;
+    color: var(--text-color);
 }
 .information-container .information-content {
     display: flex;
