@@ -274,6 +274,7 @@
 }
 
 .card-content h5 {
+    margin-top: 2rem;
     font-weight: bold;
     font-style: normal;
     color: var(--bg-color);
