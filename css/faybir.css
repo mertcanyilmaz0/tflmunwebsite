@@ -46,6 +46,7 @@
     display: none;
     width: 40rem;
     flex: 1;
+    font-style: normal;
     height: auto;
     flex-direction: column;
     justify-content: center;
@@ -372,6 +373,9 @@
 @media (max-width: 991px) {
     #big-container {
         margin-top: 15rem;
+    }
+    .card#cardDort{
+        margin-top: 5rem;
     }
 }
 
