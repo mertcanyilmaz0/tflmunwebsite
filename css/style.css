@@ -387,7 +387,6 @@ header .buttons button{
 .about-us-container .about-us .about-us-content p{
     color: var(--text-color);
     font-size: 2.2rem;
-    text-align: justify;
 }
 /* About Us Section End */
 /* Delege Section Start */
@@ -410,12 +409,10 @@ header .buttons button{
 .delege-container .delege .delege-content p{
     color: var(--text-color);
     font-size: 2.2rem;
-    text-align: justify;
 }
 .delege-container .delege .delege-content span{
     color: var(--text-color);
     font-size: 2.2rem;
-    text-align: start;
 }
 /* Delege Section End */
 /* Footer Section Start */
