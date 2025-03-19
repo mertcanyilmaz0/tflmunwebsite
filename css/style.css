@@ -660,6 +660,10 @@ footer .babalar{
     }
     header .logo{
         margin-right: 25rem;
+
+    }
+    header .logo .tflmun-logo{
+        height: 8rem;
     }
     header{
         justify-content: space-evenly;
@@ -978,13 +982,12 @@ footer .babalar{
         align-items: start;
     }
 }
-@media (max-width:1024px){
+@media (min-width:1024px),(max-width:1050px){
     header .logo a{
         display: flex;
     }
     header .logo .tflmun-logo{
         margin-left: -2rem;
-        height: 6.5rem;
         margin-right: -3rem;
     }
     header .logo .logo-text{
