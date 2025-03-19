@@ -36,7 +36,6 @@
     border-bottom: 0.5rem solid #320000;
     box-shadow:   0 4px 6px #320000;
     border: none;
-    cursor: pointer;
     transition: all 0.3s;
     z-index: 1;
 }
