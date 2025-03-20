@@ -213,47 +213,6 @@ header .buttons button{
 
 /* Main Section End */
 /* Countdown Start */
-/* .countdown-container .countdown p{
-    padding: 2rem;
-    margin: 1rem 1rem;
-    color: var(--text-color);
-    font-size: 3.5rem;
-    border: 0.3rem solid var(--text-color);
-    border-radius: 0.5rem;
-    box-shadow: 9px 12px 18px -6px #000000;
-}
-.countdown-container .countdown .countdown-hour span,
-.countdown-container .countdown .countdown-minute span,
-.countdown-container .countdown .countdown-second span,
-.countdown-container .countdown .countdown-day span{
-    color: var(--text-color);
-    font-size: 2.5rem;
-    padding: 0.2rem 0.2rem;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    border: 0.3rem solid var(--text-color);
-    border-radius: 0.5rem;
-    box-shadow: 9px 12px 18px -6px #000000;
-}
-.countdown-container .countdown ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-}
-.countdown-container .countdown .countdow-double-point span{
-    color: var(--text-color);
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin: 1rem
-}
-.countdown-container .countdown-baslik h2{
-    font-size: 8rem;
-    text-align: center;
-    color: var(--text-color);
-    text-shadow: -1px -1px #ccc, 1px 1px #ccc, 2px 2px #ccc, 3px 3px #ccc, 4px 4px #ccc, 0.05rem 0.05rem #ccc;
-} */
 .countdown-container {
     display: flex;
     flex-direction: column;
@@ -357,6 +316,8 @@ header .buttons button{
 .information-container .information-content .information-section li{
     margin-top: 1rem;
     margin-bottom: 1rem;
+    display: block;
+    z-index: 10;
 }
 .information-container .information-content .information-section h2{
     color: var(--text-color);
@@ -364,6 +325,12 @@ header .buttons button{
 }
 .information-container .information-content .information-section svg{
     width: 3rem;
+}
+.information-container .information-content .information-sectionm span{
+    word-break: break-all; /* Numaranın tam bir bütün olarak algılanmasını önler */
+    display: inline-block;
+    pointer-events: none; /* Tıklamayı devre dışı bırakır */
+    user-select: none;    /* Kullanıcının metni seçmesini engeller */
 }
 /* İnformation Section End */
 /* About Us Section Start */
@@ -484,52 +451,6 @@ footer .babalar{
 }
 /* Schedule End */
 /* Faq Start */
-/* .faq-container {
-    height: calc(100vh);
-    width: 80%;
-    margin:auto ;
-    padding: 2rem;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    border-radius: 10px;
-}
-
-.faq-item {
-    border-bottom: 1px solid var(--text-color);
-    padding: 1rem 0;
-    cursor: pointer;
-}
-
-.faq-question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.6rem;
-    font-weight: bold;
-}
-
-.faq-answer {
-    display: none;
-    padding-top: 0.5rem;
-    font-size: 1.4rem;
-    color: var(--text-color);
-}
-
-.arrow {
-    transition: transform 0.3s ease;
-}
-
-.open .arrow {
-    transform: rotate(180deg);
-}
-
-.son {
-    width: 100%;
-    background-image: none;
-    position: relative;
-    background-color: #ffffff;
-    margin-top: auto;
-}  */
 .lel {
     margin-top: 5rem;
     color: var(--main-color);
