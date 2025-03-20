@@ -55,9 +55,9 @@
     visibility: hidden;
     border-bottom-right-radius: 0.75rem;
     border-bottom-left-radius: 0.75rem;
-    border-right: 0.5rem solid #320000;
-    border-left: 0.5rem solid #320000;
-    border-bottom: 0.5rem solid #320000;
+    border-right: 0.3rem solid #320000;
+    border-left: 0.3rem solid #320000;
+    border-bottom: 0.3rem solid #320000;
     background-color: rgba(255, 255, 255, 0.858);
     padding: 1rem 2.5rem;
     font-size: 1.6rem;
