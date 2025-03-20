@@ -215,8 +215,6 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
-    width: auto;
-    height: 45rem;
 }
 
 
@@ -379,6 +377,5 @@
         margin-top: 5rem;
     }
 }
-
 
 /* Responsive End */
