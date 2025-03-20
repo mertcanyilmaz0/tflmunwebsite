@@ -193,7 +193,7 @@ header .buttons button{
     justify-content: center;
     background-image: url(../img/tflmun_home_background.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     z-index: 2;
 }
@@ -357,7 +357,7 @@ header .buttons button{
     font-size: 2.2rem;
 }
 /* About Us Section End */
-/* Delege Section Start */
+/* İrem Section Start */
 .delege-container{
     background-color: var(--new-bg-color);
 }
@@ -382,7 +382,33 @@ header .buttons button{
     color: var(--text-color);
     font-size: 2.2rem;
 }
-/* Delege Section End */
+/* İrem Section End */
+/* Irmak Section Start */
+.delege-container-2{
+    background-color: var(--new-bg-color);
+}
+.delege-2{
+    margin: 0 10rem;
+}
+.delege-container-2 .delege-2 .delege-content-2 {
+    margin: 5rem 0;
+}
+.delege-container-2 .delege-2 .delege-content-2 h2{
+    padding-bottom: 3rem;
+    border-bottom: 0.1rem solid var(--text-color);
+    color: var(--text-color);
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+}
+.delege-container-2 .delege-2 .delege-content-2 p{
+    color: var(--text-color);
+    font-size: 2.2rem;
+}
+.delege-container-2 .delege-2 .delege-content-2 span{
+    color: var(--text-color);
+    font-size: 2.2rem;
+}
+/* Irmak Section End */
 /* Footer Section Start */
 footer{
     background-color: var(--new-bg-color);
@@ -704,9 +730,11 @@ footer .babalar{
         font-size: 10rem;
     }
     .countdown-container,
-    .delege-container,
     .information-container {
         margin: 10rem 0rem;
+    }
+    .delege-container{
+        margin-top: 10rem;
     }
     header{
         justify-content: space-evenly;
@@ -796,6 +824,9 @@ footer .babalar{
     }
 }
 @media (max-width: 360px){
+    .home-container .home-content .home-baslik{
+        align-items: start;
+    }
     header .logo{
         margin-right: 10rem;
     }
