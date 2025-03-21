@@ -18,6 +18,7 @@
     font-family: "Poppins", sans-serif;
 }
 
+
 .card-footer0 .card-footer0-head{
     width: 40rem;
     height: auto;
@@ -32,14 +33,15 @@
     font-weight: bold;
     text-transform: uppercase;
     color: var(--text-color);
-    border-right: 0.5rem solid #320000;
-    border-left: 0.5rem solid #320000;
-    border-bottom: 0.5rem solid #320000;
+    border-right: 0.1rem solid #320000;
+    border-left: 0.1rem solid #320000;
+    border-bottom: 0.1rem solid #320000;
     box-shadow:   0 4px 6px #320000;
     border: none;
     transition: all 0.3s;
     z-index: 1;
 }
+
 .card-agent-text p{
     padding-top: 2rem;
 }
@@ -55,9 +57,9 @@
     visibility: hidden;
     border-bottom-right-radius: 0.75rem;
     border-bottom-left-radius: 0.75rem;
-    border-right: 0.3rem solid #320000;
-    border-left: 0.3rem solid #320000;
-    border-bottom: 0.3rem solid #320000;
+    border-right: 0.1rem solid #320000;
+    border-left: 0.1rem solid #320000;
+    border-bottom: 0.1rem solid #320000;
     background-color: rgba(255, 255, 255, 0.858);
     padding: 1rem 2.5rem;
     font-size: 1.6rem;
