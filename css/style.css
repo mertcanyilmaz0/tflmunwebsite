@@ -735,6 +735,10 @@ footer .babalar{
     .schedule-container{
         height: 100vh;
     }
+    .delege,
+    .delege-2{
+        margin: 0rem 3rem;
+    }
     section{
         padding: 0.2rem;
     }
