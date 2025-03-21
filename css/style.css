@@ -490,7 +490,7 @@ footer .babalar{
     text-shadow: -1px -1px #52130d, 1px 1px#52130d, 2px 2px #52130d, 3px 3px #52130d, 4px 4px #52130d, 0.05rem 0.05rem #52130d, 6px 6px #52130d, 7px 7px #52130d;*/
 }
 .faq-container {
-    height: calc(100vh);
+    height: auto;
     width: 80%;
     margin: auto;
     margin-bottom: 5rem;
