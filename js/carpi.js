@@ -15,7 +15,8 @@ document.querySelector("#readMoreIki").addEventListener("click", function(){
         cardFooter2.style.borderBottomLeftRadius = "0rem"
         cardFooter2.style.borderBottomRightRadius = "0rem"
         cardFooter2.style.boxShadow = ""
-        cardFooter2.style.border = "solid 0.3rem #320000"
+        cardFooter2.style.border = "solid 0.1rem #320000"
+        cardFooter2.style.backgroundColor = "rgba(50, 10, 10, 0.03)" 
         readMore2.style.display = "none"
         card2.style.backgroundPosition = "top"
         degisken2 = false
@@ -75,7 +76,8 @@ document.querySelector("#readMoreBir").addEventListener("click", function(){
         cardFooter1.style.borderBottomLeftRadius = "0rem"
         cardFooter1.style.borderBottomRightRadius = "0rem"
         cardFooter1.style.boxShadow = ""
-        cardFooter1.style.border = "solid 0.3rem #320000"
+        cardFooter1.style.border = "solid 0.1rem #320000"
+        cardFooter1.style.backgroundColor = "rgba(50, 10, 10, 0.03)"
         readMore1.style.display = "none"
         card1.style.backgroundPosition = "top"
         degisken1 = false
@@ -89,7 +91,7 @@ document.querySelector("#readMoreBir").addEventListener("click", function(){
         agentText1.style.opacity = "0"
         cardFooter1.style.borderBottomLeftRadius = "0.75rem"
         cardFooter1.style.borderBottomRightRadius = "0.75rem"
-        cardFooter1.style.boxShadow = "0 4px 6px #320000"
+        cardFooter1.style.boxShadow = "0 1px 1px #320000"
         cardFooter1.style.border = "none"
         degisken1 = true
     }
@@ -135,7 +137,8 @@ document.querySelector("#readMoreUc").addEventListener("click", function(){
         cardFooter3.style.borderBottomLeftRadius = "0rem"
         cardFooter3.style.borderBottomRightRadius = "0rem"
         cardFooter3.style.boxShadow = ""
-        cardFooter3.style.border = "solid 0.3rem #320000"
+        cardFooter3.style.border = "solid 0.1rem #320000"
+        cardFooter3.style.backgroundColor = "rgba(50, 10, 10, 0.03)"           
         readMore3.style.display = "none"
         card3.style.backgroundPosition = "top"
         degisken3 = false
@@ -195,7 +198,8 @@ document.querySelector("#readMoreDort").addEventListener("click", function(){
         cardFooter4.style.borderBottomLeftRadius = "0rem"
         cardFooter4.style.borderBottomRightRadius = "0rem"
         cardFooter4.style.boxShadow = ""
-        cardFooter4.style.border = "solid 0.3rem #320000"
+        cardFooter4.style.border = "solid 0.1rem #320000"
+        cardFooter4.style.backgroundColor = "rgba(50, 10, 10, 0.03)" 
         readMore4.style.display = "none"
         card4.style.backgroundPosition = "top"
         degisken4 = false
@@ -255,7 +259,8 @@ document.querySelector("#readMoreBes").addEventListener("click", function(){
         cardFooter5.style.borderBottomLeftRadius = "0rem"
         cardFooter5.style.borderBottomRightRadius = "0rem"
         cardFooter5.style.boxShadow = ""
-        cardFooter5.style.border = "solid 0.3rem #320000"
+        cardFooter5.style.border = "solid 0.1rem #320000"
+        cardFooter5.style.backgroundColor = "rgba(50, 10, 10, 0.03)" 
         readMore5.style.display = "none"
         card5.style.backgroundPosition = "top"
         degisken5 = false
