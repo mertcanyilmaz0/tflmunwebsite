@@ -8,7 +8,7 @@ ___
 + JS
 ___
 ### Developerlar
-Mert & Furkan
+Mert  &  Furkan
 
 İletişim:
 
