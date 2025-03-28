@@ -27,5 +27,3 @@
                 document.getElementById("countdown").innerHTML = "Zaman Doldu!";
             }
         }, 1000); // Her saniye geri sayımı güncelle
-
-        console.log("deneme");
