@@ -552,15 +552,20 @@ footer .babalar{
 }
 .fee-container{
     margin: 0 10rem 0 10rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 .fee-big-container .fee-container .fee-header{
     color: var(--text-color);
     font-size: 3.2rem;
     font-weight: bold;
     text-align: center;
+    margin-top: 4rem;
 }
 .fee-big-container .fee-container .fee-list{
-    margin-top: 5rem;
+    margin-top: 4rem;
+    padding-left: 0;
+    margin-bottom: 4rem;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -1040,6 +1045,13 @@ footer .babalar{
     }
 }
 @media (max-width: 580px){
+    .fee-big-container .fee-container .fee-list .fee-list-container{
+        width: 40rem;
+        height: 27rem;
+    }
+    .fee-container{
+        margin: 0 3rem;
+    }
     .fee-big-container .fee-container .fee-list{
         justify-content: center;
     }
