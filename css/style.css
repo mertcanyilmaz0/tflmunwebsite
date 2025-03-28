@@ -569,7 +569,8 @@ footer .babalar{
     justify-content: space-around;
 }
 .fee-big-container .fee-container .fee-list .fee-list-container{
-    width: 28rem;
+    width: 35rem;
+    height: 20rem;
     background-color: #fff;
     color: var(--text-color);
     display: grid;
