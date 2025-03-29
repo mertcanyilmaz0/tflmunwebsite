@@ -386,7 +386,7 @@ header .buttons button{
 /* İrem Section End */
 /* Irmak Section Start */
 .delege-container-2{
-    background-color: var(--new-bg-color);
+    background-color: #fff;
 }
 .delege-2{
     margin: 0 10rem;
@@ -545,6 +545,82 @@ footer .babalar{
     margin-top: auto;
 }
 /* Faq End */
+/* Fee Start */
+.fee-big-container{
+    background-color: var(--new-bg-color);
+    width: 100vw;
+}
+.fee-container{
+    margin: 0 10rem 0 10rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+/* .fee-big-container .fee-container .fee-header{
+    color: var(--text-color);
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4rem;
+} */
+.fee-big-container .fee-container .fee-list{
+    margin-top: 4rem;
+    padding-left: 0;
+    margin-bottom: 4rem;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.fee-big-container .fee-container .fee-list .fee-list-container{
+    width: 35rem;
+    height: 20rem;
+    background-color: #fff;
+    color: var(--text-color);
+    display: grid;
+    grid-row: 1fr;
+    border-radius: 0.5rem;
+}
+.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-list-head{
+    font-size: 2rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+}
+.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-list-pay{
+    font-size: 2rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+}
+.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-button{
+    width: 10rem;
+    height: 5rem;
+    background-color: var(--new-bg-color);
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-button:hover{
+    opacity: 0.8;
+}
+.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-button a{
+    color: var(--text-color);
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+/* Fee End */
 /* Responsive Start */
 @media (min-width: 768px) {
     .header .buttons button{
@@ -969,6 +1045,19 @@ footer .babalar{
     }
 }
 @media (max-width: 580px){
+    .fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-list-head{
+        font-size: 2.4rem;
+    }
+    .fee-big-container .fee-container .fee-list .fee-list-container{
+        width: 40rem;
+        height: 27rem;
+    }
+    .fee-container{
+        margin: 0 3rem;
+    }
+    .fee-big-container .fee-container .fee-list{
+        justify-content: center;
+    }
     .navbar{
        margin-right: rem;
        width: 40vw;
