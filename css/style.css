@@ -386,7 +386,7 @@ header .buttons button{
 /* İrem Section End */
 /* Irmak Section Start */
 .delege-container-2{
-    background-color: #fff;
+    background-color: var(--new-bg-color);
 }
 .delege-2{
     margin: 0 10rem;
