@@ -597,10 +597,10 @@ footer .babalar{
     font-weight: bold;
 }
 .fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-list-pay{
-    font-size: 2rem;
+    font-size: 2.3rem;
+    margin-top: 0.6rem;
     text-align: center;
     font-style: normal;
-    font-weight: bold;
 }
 .fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-button{
     width: 10rem;
