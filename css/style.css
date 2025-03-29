@@ -606,7 +606,7 @@ footer .babalar{
     margin-top: 1.5rem;
     width: 10rem;
     height: 5rem;
-    background-color: #fff;
+    background-color: var(--text-color);
     justify-content: center;
     text-align: center;
     border-radius: 0.5rem;
@@ -615,7 +615,7 @@ footer .babalar{
     opacity: 0.8;
 }
 .fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-button a{
-    color: var(--text-color);
+    color: #fff;
     text-align: center;
     font-style: normal;
     font-weight: bold;
