@@ -547,7 +547,7 @@ footer .babalar{
 /* Faq End */
 /* Fee Start */
 .fee-big-container{
-    background-color: var(--new-bg-color);
+    background-color: #fff;
     width: 100vw;
 }
 .fee-container{
@@ -576,7 +576,7 @@ footer .babalar{
 .fee-big-container .fee-container .fee-list .fee-list-container{
     width: 35rem;
     height: 20rem;
-    background-color: #fff;
+    background-color: var(--new-bg-color);
     color: var(--text-color);
     display: grid;
     grid-row: 1fr;
@@ -603,9 +603,10 @@ footer .babalar{
     font-style: normal;
 }
 .fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-button{
+    margin-top: 1.5rem;
     width: 10rem;
     height: 5rem;
-    background-color: var(--new-bg-color);
+    background-color: #fff;
     justify-content: center;
     text-align: center;
     border-radius: 0.5rem;
