@@ -545,6 +545,20 @@ footer .babalar{
     margin-top: auto;
 }
 /* Faq End */
+/* Meet The Team Start */
+.meet-the-team-container .meet-the-team-content .meet-the-team-list{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 8rem;
+    column-gap: 3rem;
+}
+.meet-the-team-container .meet-the-team-content .meet-the-team-list .meet-the-team-list-eleman img{
+    height: 50rem;
+    width: auto;
+    border: 1px solid black;
+}
+/* Meet The Team End */
 /* Fee Start */
 .fee-big-container{
     background-color: #fff;
