@@ -546,17 +546,24 @@ footer .babalar{
 }
 /* Faq End */
 /* Meet The Team Start */
+.meet-the-team-container .meet-the-team-content{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
 .meet-the-team-container .meet-the-team-content .meet-the-team-list{
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 8rem;
     column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
 }
 .meet-the-team-container .meet-the-team-content .meet-the-team-list .meet-the-team-list-eleman img{
     height: 50rem;
     width: auto;
-    border: 1px solid black;
+    box-shadow:2px 5px 16px 0px var(--black-color);
 }
 /* Meet The Team End */
 /* Fee Start */
@@ -649,7 +656,15 @@ footer .babalar{
         grid-template-rows: 1fr;
     }
 }
+@media (max-width: 1400px){
+    .meet-the-team-container .meet-the-team-content .meet-the-team-list{
+        grid-template-columns: 1fr 1fr;
+    }
+}
 @media (max-width: 991px){
+    .meet-the-team-container{
+        margin-top: 15rem;
+    }
     .lel{
         font-size: 5rem;
     }
@@ -814,6 +829,9 @@ footer .babalar{
     }
 }
 @media (max-width: 768px){
+    .meet-the-team-container .meet-the-team-content .meet-the-team-list{
+        grid-template-columns: 1fr;
+    }
     .faq-question{
         font-size: 2rem;
     }
