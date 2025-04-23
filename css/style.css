@@ -550,13 +550,14 @@ footer .babalar{
     display: flex;
     align-items: center;
     justify-self: center;
+    margin-bottom: 8rem;
 }
 .meet-the-team-container .meet-the-team-content .meet-the-team-list{
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 8rem;
-    column-gap: 3rem;
+    column-gap: 8rem;
     justify-content: center;
     align-items: center;
 }
