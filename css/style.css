@@ -552,6 +552,22 @@ footer .babalar{
     justify-self: center;
     margin-bottom: 8rem;
 }
+.meet-the-team-container .meet-the-team-head{
+    color: var(--text-color);
+    text-align: center;
+    margin-top:3rem;
+    margin-bottom: 5rem;
+}
+.meet-the-team-container .meet-the-team-head h1{
+    font-size: 10rem;
+    font-weight: bold;
+}
+.meet-the-team-container .meet-the-team-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .meet-the-team-container .meet-the-team-content .meet-the-team-list{
     list-style-type: none;
     display: grid;
@@ -562,6 +578,21 @@ footer .babalar{
     align-items: center;
 }
 .meet-the-team-container .meet-the-team-content .meet-the-team-list .meet-the-team-list-eleman img{
+    height: 50rem;
+    width: auto;
+    box-shadow:2px 5px 16px 0px var(--black-color);
+}
+.meet-the-team-container .meet-the-team-content .meet-the-team-list-1{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 8rem;
+    column-gap: 8rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+.meet-the-team-container .meet-the-team-content .meet-the-team-list-1 .meet-the-team-list-eleman-1 img{
     height: 50rem;
     width: auto;
     box-shadow:2px 5px 16px 0px var(--black-color);
@@ -830,6 +861,10 @@ footer .babalar{
     }
 }
 @media (max-width: 768px){
+    .meet-the-team-container .meet-the-team-head h1{
+        font-size: 8rem;
+    }
+    .meet-the-team-container .meet-the-team-content .meet-the-team-list-1,
     .meet-the-team-container .meet-the-team-content .meet-the-team-list{
         grid-template-columns: 1fr;
     }
