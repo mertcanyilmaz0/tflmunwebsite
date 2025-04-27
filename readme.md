@@ -1,13 +1,13 @@
-# TFLMUN Web Site
+# TFLMUN Website
 ### Açıklama
-Bu kodlar TFLMUN resmi web sitesinin kodlarıdır. TFLMUN IT ekibi sayesinde oluşturulmuştur
+Bu website TFLMUN etkinliği için oluşturulmuştur. Umarım bir MUN sitesi yaparken buradaki kodlar size yardımcı olur.
 ___
 ### Kullanılan Diller
 + HTML
 + CSS
-+ JS
++ JavaScript
 ___
-### Developerlar
+### Geliştiriciler
 Furkan, Baran ve Mertcan
 
 İletişim:
@@ -20,4 +20,23 @@ Furkan, Baran ve Mertcan
 
 [Furkan İnstagram Hesabı](https://www.instagram.com/furkantas2010/)
 
+# Explanation
+This is the website created for the TFLMUN event. I hope the codes here help you.
+---
+### Software Languages Used
++ HTML
++ CSS
++ JavaScript
+---
+### Developers
+Furkan, Baran and Mertcan
 
+Contact:
+
+[Instagram Account of Project](https://www.instagram.com/tflmun_/)
+
+[Instagram Account of Mert](https://www.instagram.com/ylmazmertcan_/)
+
+[Instagram Account of Baran](https://www.instagram.com/barankiziltan_/)
+
+[Instagram Account of Furkan](https://www.instagram.com/furkantas2010/)
