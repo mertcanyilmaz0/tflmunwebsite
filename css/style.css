@@ -523,8 +523,7 @@ footer .babalar{
     margin-bottom: 1rem;
 }
 .schedule-container .schedule-list-type-1 .schedule-list-day-2 .schedule-list-eleman-day-2-social{
-    border-top: 1px solid var(--text-color);
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 /* Schedule End */
 /* Faq Start */
