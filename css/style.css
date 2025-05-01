@@ -233,6 +233,7 @@ header .buttons button{
     margin-bottom: 8rem;
     font-weight: bold;
     letter-spacing: 0.2rem;
+    text-align: center;
     text-transform: uppercase;
     text-shadow: -1px -1px #ccc, 1px 1px #ccc, 2px 2px #ccc, 3px 3px #ccc, 4px 4px #ccc, 0.05rem 0.05rem #ccc;
 }
