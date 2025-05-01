@@ -1,5 +1,5 @@
         // Hedef tarih ve saat (örneğin, 31 Aralık 2025)
-        var targetDate = new Date("May 2, 2025 00:08:00").getTime();
+        var targetDate = new Date("May 2, 2025 09:00:00").getTime();
 
         // Geri sayım fonksiyonu
         var countdownInterval = setInterval(function() {
