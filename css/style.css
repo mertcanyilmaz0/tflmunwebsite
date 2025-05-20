@@ -17,7 +17,7 @@
     border: none;
     text-decoration: none;
     transition: 0.2s ease;
-    font-family: "Poppins", sans-serif; 
+    font-family: "Poppins", sans-serif;
 }
 
 /* Base Html Codes */
@@ -34,7 +34,7 @@ html::-webkit-scrollbar {
     background-color: var(--text-color);
 }
 
-html::-webkit-scrollbar-track{
+html::-webkit-scrollbar-track {
     background-color: transparent;
 }
 
@@ -56,65 +56,76 @@ a {
 section {
     padding: 3.5rem 7%;
 }
+
 /* Dropdown içeriklerinin gizlenmesi */
-.drowpdown{
+.drowpdown {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
-#dropdownNav{
+
+#dropdownNav {
     opacity: 0;
 }
-.drowpdown-nav{
+
+.drowpdown-nav {
     z-index: 1;
     position: fixed;
     top: 0;
-    width: 30rem; 
-    height: 25rem; 
+    width: 30rem;
+    height: 25rem;
     margin-top: 10rem;
     background-color: #4a0000;
     transition: all 0.3s ease-in-out;
     padding-top: 2rem;
     border-radius: 1%;
-    align-items: start;;
+    align-items: start;
+    ;
 }
-.drowpdown-list{
+
+.drowpdown-list {
     display: grid;
     grid-template-rows: 1fr;
     align-items: start;
     list-style-type: none;
     justify-content: center;
 }
-.drowpdown-list a{
+
+.drowpdown-list a {
     margin: 2rem 0rem;
     text-align: center;
 }
-.drowpdown-list a:hover{
+
+.drowpdown-list a:hover {
     border-bottom: 0.1rem solid var(--bg-color);
     padding-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 /* Apply End */
 
 /* Header Section Start */
 header .logo:hover .tflmun-logo,
-header .logo:hover .logo-text{
+header .logo:hover .logo-text {
     opacity: 0.9;
 }
-header{
-    background-color:#4a0000;
+
+header {
+    background-color: #4a0000;
     width: 100vw;
+    height: 12rem;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     position: static;
     z-index: 1000;
 }
-header .logo .tflmun-logo{
+
+header .logo .tflmun-logo {
     display: inline-block;
     vertical-align: middle;
     height: 8rem;
@@ -122,9 +133,10 @@ header .logo .tflmun-logo{
     margin-right: -3rem;
     margin-left: -5rem;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
-header .logo .logo-text{
+
+header .logo .logo-text {
     display: inline-block;
     vertical-align: middle;
     font-size: 2.5rem;
@@ -133,39 +145,47 @@ header .logo .logo-text{
     justify-content: center;
     color: var(--bg-color);
 }
-header .navbar .navbar-liste li, a{
+
+header .navbar .navbar-liste li,
+a {
     color: var(--bg-color);
 }
-header .navbar ul li{
+
+header .navbar ul li {
     list-style: none;
     color: var(--bg-color);
     font-size: 1.5rem;
     margin: 4rem 2.5rem 4rem 2.5rem;
 }
- header .navbar ul{ 
+
+header .navbar ul {
     display: flex;
     align-items: center;
     justify-content: center;
-} 
-header .navbar .navbar-list-li:hover{
+}
+
+header .navbar .navbar-list-li:hover {
     border-bottom: 0.1rem solid var(--bg-color);
     padding-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: start;
 }
-header .navbar ul li.active{
+
+header .navbar ul li.active {
     border-bottom: 0.1rem solid var(--bg-color);
     padding-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-header .buttons{
+
+header .buttons {
     margin-left: 15rem;
     margin-right: -2rem;
 }
-header .buttons button{
+
+header .buttons button {
     z-index: 101;
     color: var(--bg-color);
     cursor: pointer;
@@ -174,20 +194,22 @@ header .buttons button{
     background-color: transparent;
     display: none;
 }
+
 /* Header Section End */
 /* Apply Start */
 /* Main Section Start */
-.home-container .home-content .home-baslik h1{
+.home-container .home-content .home-baslik h1 {
     color: var(--bg-color);
     font-size: 16rem;
     margin-bottom: 1rem;
     font-weight: bold;
-/*     text-shadow: -1px -1px #ccc, 1px 1px #ccc, 2px 2px #ccc, 3px 3px #ccc, 4px 4px #ccc, 5px 5px #ccc; */
-/*     text-shadow: -1px -1px #52130d, 1px 1px#52130d, 2px 2px #52130d, 3px 3px #52130d, 4px 4px #52130d, 5px 5px #52130d, 6px 6px #52130d, 7px  7px #52130d;*\
+    /*     text-shadow: -1px -1px #ccc, 1px 1px #ccc, 2px 2px #ccc, 3px 3px #ccc, 4px 4px #ccc, 5px 5px #ccc; */
+    /*     text-shadow: -1px -1px #52130d, 1px 1px#52130d, 2px 2px #52130d, 3px 3px #52130d, 4px 4px #52130d, 5px 5px #52130d, 6px 6px #52130d, 7px  7px #52130d;*\
 /*     text-shadow: -1px -1px 0 #cccccc, 1px 1px 0 #cccccc, 2px 2px 0 #cccccc, 3px 3px 0 #cccccc, 4px 4px #cccccc, 5px 5px #cccccc, 6px 6px 0 #cccccc, 6px 6px 0 #cccccc, 7px 7px #ccc; */
 }
-.home-container{
-    height:  calc(100vh - 13.4rem) ;
+
+.home-container {
+    height: calc(100vh - 11.4rem);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -197,15 +219,18 @@ header .buttons button{
     background-repeat: no-repeat;
     z-index: 2;
 }
-.home-container .home-content{
+
+.home-container .home-content {
     display: grid;
     grid-template-rows: 1fr;
 }
-.home-container .home-content .home-baslik{
+
+.home-container .home-content .home-baslik {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 /*Text Shadow'un Rem'li Hali*\
 
 /*  text-shadow: -0.01rem -0.01rem #52130d, 0.01rem 0.01rem #52130d, 0.02rem 0.02rem #52130d, 0.03rem 0.03rem #52130d, 0.04rem 0.04rem #52130d, 0.05rem 0.05rem #52130d,
@@ -223,11 +248,13 @@ header .buttons button{
     padding: 50px;
     border-radius: 15px;
 }
+
 .countdown .countdown-hour,
 .countdown .countdown-minute,
-.countdown .countdown-second{
+.countdown .countdown-second {
     margin-left: 4rem;
 }
+
 .countdown-baslik h2 {
     font-size: 8rem;
     margin-bottom: 8rem;
@@ -278,97 +305,119 @@ header .buttons button{
     color: #ffd700;
     margin: 0 10px;
 }
+
 /* Countdown End */
 /* İnformation Section Start */
-.information-container{
+.information-container {
     margin-right: 10rem;
-    margin-left:10rem;
+    margin-left: 10rem;
     color: var(--text-color);
 }
+
 .information-container .information-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-.information-container .information-content .information-section{
+
+.information-container .information-content .information-section {
     align-items: center;
     justify-content: center;
 }
-.information-container .information-content .information-iframe iframe{
+
+.information-container .information-content .information-iframe iframe {
     width: 50rem;
     height: 30rem;
     align-items: center;
     justify-content: center;
     margin-top: 5rem;
 }
-.information-container .information-content .information-section .information-baslik h2{
+
+.information-container .information-content .information-section .information-baslik h2 {
     color: var(--text-color);
     font-size: 4rem;
     margin-bottom: 5rem;
 }
-.information-container .information-content .information-section{
+
+.information-container .information-content .information-section {
     color: var(--text-color);
     font-size: 2.2rem;
 }
-.information-container .information-content .information-section ul{
+
+.information-container .information-content .information-section ul {
     list-style-type: none;
 }
-.information-container .information-content .information-section li{
+
+.information-container .information-content .information-section li {
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: block;
     z-index: 10;
 }
-.information-container .information-content .information-section h2{
+
+.information-container .information-content .information-section h2 {
     color: var(--text-color);
     font-size: 3.2rem;
 }
-.information-container .information-content .information-section svg{
+
+.information-container .information-content .information-section svg {
     width: 3rem;
 }
-.information-container .information-content .information-sectionm span{
-    word-break: break-all; /* Numaranın tam bir bütün olarak algılanmasını önler */
+
+.information-container .information-content .information-sectionm span {
+    word-break: break-all;
+    /* Numaranın tam bir bütün olarak algılanmasını önler */
     display: inline-block;
-    pointer-events: none; /* Tıklamayı devre dışı bırakır */
-    user-select: none;    /* Kullanıcının metni seçmesini engeller */
+    pointer-events: none;
+    /* Tıklamayı devre dışı bırakır */
+    user-select: none;
+    /* Kullanıcının metni seçmesini engeller */
 }
+
 /* İnformation Section End */
 /* About Us Section Start */
 /* .about-us-container{
     background-color: var(--new-bg-color);
 } */
-.about-us{
-    height:  calc(100vh - 13.4rem) ;
+.about-us {
+    height: calc(100vh - 13.4rem);
     margin: 0 10rem;
     margin-bottom: 7rem;
 }
-.about-us-container .about-us .about-us-content{
+
+.about-us-container .about-us .about-us-content {
     margin: 5rem 0;
 }
-.about-us-container .about-us .about-us-content h2{
+
+.about-us-container .about-us .about-us-content h2 {
     padding-bottom: 3rem;
     border-bottom: 0.1rem solid var(--text-color);
     color: var(--text-color);
     font-size: 3.2rem;
     margin-bottom: 2rem;
 }
-.about-us-container .about-us .about-us-content p{
+
+.about-us-container .about-us .about-us-content p {
     color: var(--text-color);
     font-size: 2.2rem;
 }
+
 /* About Us Section End */
 /* İrem Section Start */
-.delege-container{
+.delege-container {
     background-color: var(--new-bg-color);
 }
-.delege{
+
+.delege {
     margin: 0 10rem;
 }
+
 .delege-container .delege .delege-content {
     margin: 5rem 0;
 }
-.delege-container .delege .delege-content h2{
+
+.delege-container .delege .delege-content h2 {
     padding-bottom: 3rem;
     border-bottom: 0.1rem solid var(--text-color);
     color: var(--text-color);
@@ -376,26 +425,32 @@ header .buttons button{
     margin-bottom: 2rem;
     font-weight: bold;
 }
-.delege-container .delege .delege-content p{
+
+.delege-container .delege .delege-content p {
     color: var(--text-color);
     font-size: 2.2rem;
 }
-.delege-container .delege .delege-content span{
+
+.delege-container .delege .delege-content span {
     color: var(--text-color);
     font-size: 2.2rem;
 }
+
 /* İrem Section End */
 /* Irmak Section Start */
-.delege-container-2{
+.delege-container-2 {
     background-color: var(--new-bg-color);
 }
-.delege-2{
+
+.delege-2 {
     margin: 0 10rem;
 }
+
 .delege-container-2 .delege-2 .delege-content-2 {
     margin: 5rem 0;
 }
-.delege-container-2 .delege-2 .delege-content-2 h2{
+
+.delege-container-2 .delege-2 .delege-content-2 h2 {
     padding-bottom: 3rem;
     border-bottom: 0.1rem solid var(--text-color);
     color: var(--text-color);
@@ -403,20 +458,24 @@ header .buttons button{
     margin-bottom: 2rem;
     font-weight: bold;
 }
-.delege-container-2 .delege-2 .delege-content-2 p{
+
+.delege-container-2 .delege-2 .delege-content-2 p {
     color: var(--text-color);
     font-size: 2.2rem;
 }
-.delege-container-2 .delege-2 .delege-content-2 span{
+
+.delege-container-2 .delege-2 .delege-content-2 span {
     color: var(--text-color);
     font-size: 2.2rem;
 }
+
 /* Irmak Section End */
 /* Footer Section Start */
-footer{
+footer {
     background-color: var(--new-bg-color);
     width: 100vw;
 }
+
 footer .footer-list {
     padding: 3rem 3rem;
     list-style-type: none;
@@ -424,77 +483,89 @@ footer .footer-list {
     align-items: center;
     justify-content: center;
 }
-footer .footer-list .footer-list-instagram svg{
+
+footer .footer-list .footer-list-instagram svg {
     cursor: pointer;
     color: var(--text-color);
     width: 3rem;
     margin: 0 2rem;
 }
-footer .footer-list .footer-list-tiktok svg{
+
+footer .footer-list .footer-list-tiktok svg {
     cursor: pointer;
     color: var(--text-color);
     width: 3rem;
     margin: 0 2rem;
 }
+
 footer .footer-list .footer-list-instagram svg:hover,
-footer .footer-list .footer-list-tiktok svg:hover{
+footer .footer-list .footer-list-tiktok svg:hover {
     opacity: 0.7;
 }
+
 /* Footer Section End */
 /* Trol Section Start */
-footer .babalar span{
+footer .babalar span {
     font-size: 3.5rem;
     color: var(--text-color);
 }
-footer .babalar p{
+
+footer .babalar p {
     font-size: 3rem;
     color: var(--text-color);
     margin-bottom: 4rem;
     font-weight: bold;
     font-style: normal;
 }
-footer .babalar{
+
+footer .babalar {
     display: grid;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
+
 /* Trol Section End */
 /* Schedule Start*/
-.schedule-container{
-    height:  calc(100vh - 13.5rem) ;
+.schedule-container {
+    height: calc(100vh - 13.5rem);
     width: auto;
     margin-bottom: 5rem;
     display: grid;
     align-items: center;
     justify-content: center
 }
-.schedule-container{
+
+.schedule-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
-.schedule-container .schedule-head{
+
+.schedule-container .schedule-head {
     color: var(--text-color);
     font-weight: bold;
     font-size: 10rem;
     margin-top: 3rem;
 }
-.schedule-container  .schedule-list-type-1{
+
+.schedule-container .schedule-list-type-1 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100vw;
     margin-top: 1rem;
 }
-.schedule-container  .schedule-list-type-2{
+
+.schedule-container .schedule-list-type-2 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.schedule-container  .schedule-list-type-1 .schedule-list-day-2,
-.schedule-container  .schedule-list-type-1 .schedule-list-day-1{
+
+.schedule-container .schedule-list-type-1 .schedule-list-day-2,
+.schedule-container .schedule-list-type-1 .schedule-list-day-1 {
     color: var(--text-color);
     list-style-type: none;
     font-size: 1.8rem;
@@ -502,7 +573,8 @@ footer .babalar{
     text-align: center;
     padding: 0;
 }
-.schedule-container .schedule-list-type-2 .schedule-list-day-3{
+
+.schedule-container .schedule-list-type-2 .schedule-list-day-3 {
     color: var(--text-color);
     list-style-type: none;
     font-size: 1.8rem;
@@ -510,22 +582,26 @@ footer .babalar{
     padding: 0;
     text-align: center;
 }
+
 .schedule-container .schedule-list-type-2 .schedule-list-day-3 .schedule-list-eleman-day-3,
 .schedule-container .schedule-list-type-1 .schedule-list-day-2 .schedule-list-eleman-day-2,
-.schedule-container .schedule-list-type-1 .schedule-list-day-1 .schedule-list-eleman-day-1{
+.schedule-container .schedule-list-type-1 .schedule-list-day-1 .schedule-list-eleman-day-1 {
     margin-bottom: 1rem;
 }
+
 .schedule-container .schedule-list-type-2 .schedule-list-day-3 .schedule-list-head-day-3,
 .schedule-container .schedule-list-type-1 .schedule-list-day-2 .schedule-list-head-day-2,
-.schedule-container .schedule-list-type-1 .schedule-list-day-1 .schedule-list-head-day-1{
+.schedule-container .schedule-list-type-1 .schedule-list-day-1 .schedule-list-head-day-1 {
     font-size: 3rem;
     text-align: center;
     font-weight: bold;
     margin-bottom: 1rem;
 }
-.schedule-container .schedule-list-type-1 .schedule-list-day-2 .schedule-list-eleman-day-2-social{
+
+.schedule-container .schedule-list-type-1 .schedule-list-day-2 .schedule-list-eleman-day-2-social {
     padding-top: 2rem;
 }
+
 /* Schedule End */
 /* Faq Start */
 .lel {
@@ -538,6 +614,7 @@ footer .babalar{
     /*font-weight: bold;
     text-shadow: -1px -1px #52130d, 1px 1px#52130d, 2px 2px #52130d, 3px 3px #52130d, 4px 4px #52130d, 0.05rem 0.05rem #52130d, 6px 6px #52130d, 7px 7px #52130d;*/
 }
+
 .faq-container {
     height: auto;
     width: 80%;
@@ -565,25 +642,25 @@ footer .babalar{
 
 .faq-answer {
     display: block;
-    max-height: 0; 
-    overflow: hidden; 
+    max-height: 0;
+    overflow: hidden;
     padding-top: 0.5rem;
     font-size: 1.4rem;
     color: var(--text-color);
-    transition: max-height 0.3s ease-out, padding 0.3s ease-out; 
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
 }
 
 .faq-question.open .faq-answer {
-    max-height: 500px; 
-    padding-top: 1rem; 
+    max-height: 500px;
+    padding-top: 1rem;
 }
 
 .arrow {
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
 
 .faq-question.open .arrow {
-    transform: rotate(180deg); 
+    transform: rotate(180deg);
 }
 
 .son {
@@ -593,31 +670,36 @@ footer .babalar{
     background-color: #ffffff;
     margin-top: auto;
 }
+
 /* Faq End */
 /* Meet The Team Start */
-.meet-the-team-container .meet-the-team-content{
+.meet-the-team-container .meet-the-team-content {
     display: flex;
     align-items: center;
     justify-self: center;
     margin-bottom: 8rem;
 }
-.meet-the-team-container .meet-the-team-head{
+
+.meet-the-team-container .meet-the-team-head {
     color: var(--text-color);
     text-align: center;
-    margin-top:3rem;
+    margin-top: 3rem;
     margin-bottom: 5rem;
 }
-.meet-the-team-container .meet-the-team-head h1{
+
+.meet-the-team-container .meet-the-team-head h1 {
     font-size: 10rem;
     font-weight: bold;
 }
-.meet-the-team-container .meet-the-team-content{
+
+.meet-the-team-container .meet-the-team-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.meet-the-team-container .meet-the-team-content .meet-the-team-list{
+
+.meet-the-team-container .meet-the-team-content .meet-the-team-list {
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -626,12 +708,14 @@ footer .babalar{
     justify-content: center;
     align-items: center;
 }
-.meet-the-team-container .meet-the-team-content .meet-the-team-list .meet-the-team-list-eleman img{
+
+.meet-the-team-container .meet-the-team-content .meet-the-team-list .meet-the-team-list-eleman img {
     height: 50rem;
     width: auto;
-    box-shadow:2px 5px 16px 0px var(--black-color);
+    box-shadow: 2px 5px 16px 0px var(--black-color);
 }
-.meet-the-team-container .meet-the-team-content .meet-the-team-list-1{
+
+.meet-the-team-container .meet-the-team-content .meet-the-team-list-1 {
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -641,22 +725,26 @@ footer .babalar{
     align-items: center;
     margin-bottom: 8rem;
 }
-.meet-the-team-container .meet-the-team-content .meet-the-team-list-1 .meet-the-team-list-eleman-1 img{
+
+.meet-the-team-container .meet-the-team-content .meet-the-team-list-1 .meet-the-team-list-eleman-1 img {
     height: 50rem;
     width: auto;
-    box-shadow:2px 5px 16px 0px var(--black-color);
+    box-shadow: 2px 5px 16px 0px var(--black-color);
 }
+
 /* Meet The Team End */
 /* Fee Start */
-.fee-big-container{
+.fee-big-container {
     background-color: #fff;
     width: 100vw;
 }
-.fee-container{
+
+.fee-container {
     margin: 0 10rem 0 10rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
+
 /* .fee-big-container .fee-container .fee-header{
     color: var(--text-color);
     font-size: 3.2rem;
@@ -664,7 +752,7 @@ footer .babalar{
     text-align: center;
     margin-top: 4rem;
 } */
-.fee-big-container .fee-container .fee-list{
+.fee-big-container .fee-container .fee-list {
     margin-top: 4rem;
     padding-left: 0;
     margin-bottom: 4rem;
@@ -675,7 +763,8 @@ footer .babalar{
     align-items: center;
     justify-content: space-around;
 }
-.fee-big-container .fee-container .fee-list .fee-list-container{
+
+.fee-big-container .fee-container .fee-list .fee-list-container {
     width: 35rem;
     height: 20rem;
     background-color: var(--new-bg-color);
@@ -684,7 +773,8 @@ footer .babalar{
     grid-row: 1fr;
     border-radius: 0.5rem;
 }
-.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content{
+
+.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -692,19 +782,22 @@ footer .babalar{
     align-items: center;
     padding: 1rem 2rem;
 }
-.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-list-head{
+
+.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-list-head {
     font-size: 2rem;
     text-align: center;
     font-style: normal;
     font-weight: bold;
 }
-.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-list-pay{
+
+.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-list-pay {
     font-size: 2rem;
     margin-top: 0.6rem;
     text-align: center;
     font-style: normal;
 }
-.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-button{
+
+.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-button {
     margin-top: 1.5rem;
     width: 10rem;
     height: 5rem;
@@ -713,126 +806,158 @@ footer .babalar{
     text-align: center;
     border-radius: 0.5rem;
 }
-.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-button:hover{
+
+.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-button:hover {
     opacity: 0.8;
 }
-.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-button a{
+
+.fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-button a {
     color: #fff;
     text-align: center;
     font-style: normal;
     font-weight: bold;
     font-size: 1.9rem;
 }
+
 /* Fee End */
 /* Responsive Start */
 @media (min-width: 768px) {
-    .header .buttons button{
+    .header .buttons button {
         display: none;
     }
 }
-@media (max-width: 1656px){
+
+@media (max-width: 1656px) {
+
     .committees .card-list,
-    .committees .card-list-2{
+    .committees .card-list-2 {
         display: grid;
         grid-template-rows: 1fr;
     }
 }
-@media (max-width: 1400px){
-    .meet-the-team-container .meet-the-team-content .meet-the-team-list{
+
+@media (max-width: 1400px) {
+    .meet-the-team-container .meet-the-team-content .meet-the-team-list {
         grid-template-columns: 1fr 1fr;
     }
 }
-@media (max-width: 991px){
+
+@media (max-width: 991px) {
+
     .schedule-container .schedule-list-type-1 .schedule-list-day-1,
     .schedule-container .schedule-list-type-1 .schedule-list-day-2,
-    .schedule-container .schedule-list-type-2 .schedule-list-day-3{
+    .schedule-container .schedule-list-type-2 .schedule-list-day-3 {
         margin-bottom: 4.2rem;
     }
-    .schedule-container  .schedule-list-type-1{
+
+    .schedule-container .schedule-list-type-1 {
         flex-direction: column;
     }
-    .schedule-container .schedule-head{
+
+    .schedule-container .schedule-head {
         font-size: 8rem;
         margin-top: 15rem;
     }
-    .schedule-container{
+
+    .schedule-container {
         height: auto;
         margin-bottom: 4rem;
     }
-    .meet-the-team-container{
+
+    .meet-the-team-container {
         margin-top: 15rem;
     }
-    .lel{
+
+    .lel {
         font-size: 5rem;
     }
-    .committees h1{
+
+    .committees h1 {
         font-size: 6rem;
         margin-top: 15rem;
     }
-    .about-us{
+
+    .about-us {
         margin-top: 11rem;
         height: 100vh;
     }
-    header .buttons{
+
+    header .buttons {
         margin-left: 0rem;
     }
-    .faq-container{
+
+    .faq-container {
         align-items: center;
         margin-top: 10rem;
     }
-    .information-container .information-content .information-iframe iframe{
+
+    .information-container .information-content .information-iframe iframe {
         margin: auto;
     }
-    .home-container .home-content .home-baslik h1{
+
+    .home-container .home-content .home-baslik h1 {
         font-size: 15rem;
     }
+
     html {
         font-size: 46%;
     }
+
     section {
         padding: 1rem;
     }
+
     footer {
         padding: 1rem;
     }
-    .information-container .information-content .information-iframe iframe{
+
+    .information-container .information-content .information-iframe iframe {
         width: 40rem;
         margin-left: 4rem;
         margin-right: 0rem;
     }
+
     .information-container .information-content .information-section,
-    .information-container .information-baslik h1{
+    .information-container .information-baslik h1 {
         margin-left: 4rem;
     }
-    header .navbar ul{
+
+    header .navbar ul {
         display: none;
     }
-    .home-container{
+
+    .home-container {
         height: calc(100vh - 6rem);
     }
-    header .logo{
+
+    header .logo {
         margin-right: 25rem;
 
     }
-    header .logo .tflmun-logo{
+
+    header .logo .tflmun-logo {
         height: 8rem;
     }
-    header{
+
+    header {
         justify-content: space-evenly;
         position: fixed;
         top: 0;
     }
-    header .buttons button{
+
+    header .buttons button {
         display: inline;
         margin: 4rem 0;
     }
-    header .navbar ul li.active{
+
+    header .navbar ul li.active {
         border-bottom: 0.1rem solid var(--bg-color);
         padding-bottom: 1rem;
         display: flex;
         align-items: start;
         justify-content: start;
     }
+
     .navbar {
         z-index: 100;
         position: fixed;
@@ -841,38 +966,39 @@ footer .babalar{
         right: -250px;
         width: 22vw;
         margin-top: 10rem;
-        height:  calc(100vh - 10rem) ;
+        height: calc(100vh - 10rem);
         background-color: #4a0000;
         transition: all 0.3s ease-in-out;
         padding-top: 2rem;
         border-radius: 1%;
         align-items: start;
     }
-    
+
     .navbar .navbar-list {
         display: grid;
         grid-template-rows: 1fr;
         align-items: start;
         list-style-type: none;
     }
-    
+
     .navbar .navbar-list .navbar-list-eleman {
         padding: 15px;
         color: #fff;
     }
-    
+
     .navbar .navbar-list .navbar-list-eleman a {
         color: #fff;
         text-decoration: none;
         display: block;
         transition: 0.2 ease-in;
     }
-    
+
     .navbar .navbar-list .navbar-list-eleman a:hover {
         border-bottom: 0.1rem solid #fff;
         padding-bottom: 1rem;
     }
-/*     .drowpdown{
+
+    /*     .drowpdown{
         align-items: start;
         justify-content: start;
     }
@@ -898,10 +1024,11 @@ footer .babalar{
     .drowpdown-list a{
         padding-left: 1rem;
     } */
-    .lel{
+    .lel {
         font-size: 8rem;
     }
-    .drowpdown-nav{
+
+    .drowpdown-nav {
         margin-right: 0;
         z-index: 1;
         position: fixed;
@@ -910,7 +1037,7 @@ footer .babalar{
         opacity: 0;
         width: 22vw;
         height: max-content;
-        margin-top:69vh;
+        margin-top: 69vh;
         background-color: #4a0000;
         transition: all 0.3s ease-in-out;
         padding-top: 2rem;
@@ -918,79 +1045,99 @@ footer .babalar{
         align-items: start;
         justify-content: center;
     }
-    .drowpdown-list{
-    padding-bottom: 2rem;
+
+    .drowpdown-list {
+        padding-bottom: 2rem;
     }
-    .drowpdown-list a{
+
+    .drowpdown-list a {
         padding-left: 1rem;
     }
 }
-@media (max-width: 768px){
-    .meet-the-team-container .meet-the-team-head h1{
+
+@media (max-width: 768px) {
+    .meet-the-team-container .meet-the-team-head h1 {
         font-size: 8rem;
     }
+
     .meet-the-team-container .meet-the-team-content .meet-the-team-list-1,
-    .meet-the-team-container .meet-the-team-content .meet-the-team-list{
+    .meet-the-team-container .meet-the-team-content .meet-the-team-list {
         grid-template-columns: 1fr;
     }
-    .faq-question{
+
+    .faq-question {
         font-size: 2rem;
     }
-    .faq-answer{
+
+    .faq-answer {
         font-size: 1.8rem;
     }
-    .information-container .information-content{
+
+    .information-container .information-content {
         justify-content: center;
     }
+
     .delege,
-    .delege-2{
+    .delege-2 {
         margin: 0rem 3rem;
     }
-    section{
+
+    section {
         padding: 0.2rem;
     }
-    header .logo{
+
+    header .logo {
         margin-right: 25rem;
     }
-    .home-container{
+
+    .home-container {
         margin-top: 10rem;
     }
+
     .countdown li,
     .countdown li p,
-    .countdown li span{
+    .countdown li span {
         font-size: 1.8rem;
     }
+
     .countdown .countdown-hour,
     .countdown .countdown-minute,
-    .countdown .countdown-second{
+    .countdown .countdown-second {
         margin-left: 1rem;
     }
-    .home-container .home-content .home-baslik h1{
+
+    .home-container .home-content .home-baslik h1 {
         font-size: 10rem;
     }
+
     .countdown-container,
     .information-container {
         margin: 10rem 0rem;
     }
-    .delege-container{
+
+    .delege-container {
         margin-top: 10rem;
     }
-    header{
+
+    header {
         justify-content: space-evenly;
         position: fixed;
         top: 0;
     }
-    header .buttons button{
+
+    header .buttons button {
         display: inline;
         margin: 4rem 0;
     }
-    header .navbar ul li.active{
+
+    header .navbar ul li.active {
         border-bottom: 0.1rem solid var(--bg-color);
         padding-bottom: 1rem;
         display: flex;
         align-items: start;
         justify-content: start;
     }
+
     .navbar {
         z-index: 100;
         position: fixed;
@@ -998,42 +1145,44 @@ footer .babalar{
         right: -250px;
         width: 36vw;
         margin-top: 10rem;
-        height:  calc(100vh - 10rem) ;
+        height: calc(100vh - 10rem);
         background-color: #4a0000;
         transition: all 0.3s ease-in-out;
         padding-top: 2rem;
         border-radius: 1%;
         align-items: start;
     }
-    
+
     .navbar .navbar-list {
         display: grid;
         grid-template-rows: 1fr;
         align-items: start;
         list-style-type: none;
     }
-    
+
     .navbar .navbar-list .navbar-list-eleman {
         padding: 15px;
         color: #fff;
     }
-    
+
     .navbar .navbar-list .navbar-list-eleman a {
         color: #fff;
         text-decoration: none;
         display: block;
         transition: 0.2 ease-in;
     }
-    
+
     .navbar .navbar-list .navbar-list-eleman a:hover {
         border-bottom: 0.1rem solid #fff;
         padding-bottom: 1rem;
     }
-    .drowpdown{
+
+    .drowpdown {
         align-items: start;
         justify-content: start;
     }
-    .drowpdown-nav{
+
+    .drowpdown-nav {
         margin-right: 3rem;
         z-index: 1;
         position: fixed;
@@ -1042,7 +1191,7 @@ footer .babalar{
         opacity: 0;
         width: 22vw;
         height: max-content;
-        margin-top:69vh;
+        margin-top: 69vh;
         background-color: #4a0000;
         transition: all 0.3s ease-in-out;
         padding-top: 2rem;
@@ -1050,100 +1199,123 @@ footer .babalar{
         align-items: start;
         justify-content: center;
     }
-    .drowpdown-list{
-    padding-bottom: 2rem;
+
+    .drowpdown-list {
+        padding-bottom: 2rem;
     }
-    .drowpdown-list a{
+
+    .drowpdown-list a {
         padding-left: 1rem;
     }
 }
-@media(max-width:418px){
-    .faq-container{
+
+@media(max-width:418px) {
+    .faq-container {
         margin-bottom: 5rem;
         height: auto;
     }
-    .about-us{
+
+    .about-us {
         height: auto;
     }
-    .home-container .home-content .home-baslik h1{
+
+    .home-container .home-content .home-baslik h1 {
         font-size: 7rem;
     }
-    .lel{
+
+    .lel {
         font-size: 6rem;
     }
 }
-@media (max-width: 640px){
-    section{
+
+@media (max-width: 640px) {
+    section {
         padding: 0.5rem;
     }
-    header .logo{
+
+    header .logo {
         margin-right: 10rem;
     }
-    .countdown-container .countdown-baslik h2{
+
+    .countdown-container .countdown-baslik h2 {
         font-size: 6rem;
         margin-bottom: 5rem;
         margin-left: 0rem;
     }
-    .information-container .information-content .information-section .information-baslik h2{
+
+    .information-container .information-content .information-section .information-baslik h2 {
         color: var(--text-color);
         font-size: 4rem;
     }
 }
-@media (max-width: 360px){
-    .home-container .home-content .home-baslik{
+
+@media (max-width: 360px) {
+    .home-container .home-content .home-baslik {
         align-items: start;
     }
-    header .logo{
+
+    header .logo {
         margin-right: 10rem;
     }
-    header .buttons button{
+
+    header .buttons button {
         margin-right: 5rem;
     }
 }
-@media (max-width: 452px){
-    .schedule-container .schedule-content h2{
+
+@media (max-width: 452px) {
+    .schedule-container .schedule-content h2 {
         font-size: 6rem;
     }
 }
-@media (max-width: 297px){
-    .schedule-container .schedule-content h2{
+
+@media (max-width: 297px) {
+    .schedule-container .schedule-content h2 {
         font-size: 4.8rem;
     }
-    header .logo{
+
+    header .logo {
         margin-right: 6rem;
     }
 }
-@media (max-width: 320px){
-    .home-container .home-content .home-baslik h1{
+
+@media (max-width: 320px) {
+    .home-container .home-content .home-baslik h1 {
         font-size: 7.5rem;
     }
+
     .countdown li,
     .countdown li p,
-    .countdown li span{
+    .countdown li span {
         font-size: 1.8rem;
     }
+
     .countdown .countdown-hour,
     .countdown .countdown-minute,
-    .countdown .countdown-second{
+    .countdown .countdown-second {
         margin-left: 1rem;
     }
 }
-@media (max-width: 344px){
-    .home-container .home-content .home-baslik h1{
+
+@media (max-width: 344px) {
+    .home-container .home-content .home-baslik h1 {
         font-size: 7rem;
     }
+
     .countdown li,
     .countdown li p,
-    .countdown li span{
+    .countdown li span {
         font-size: 1.5rem;
     }
+
     .countdown .countdown-hour,
     .countdown .countdown-minute,
-    .countdown .countdown-second{
+    .countdown .countdown-second {
         margin-left: 0.15rem;
     }
 }
-@media (max-width: 768px) and (max-height:1024px){
+
+@media (max-width: 768px) and (max-height:1024px) {
     .navbar {
         z-index: -100;
         position: fixed;
@@ -1151,7 +1323,7 @@ footer .babalar{
         right: -250px;
         width: 30vw;
         margin-top: 10rem;
-        height:  calc(100vh - 10rem) ;
+        height: calc(100vh - 10rem);
         background-color: #4a0000;
         transition: all 0.3s ease-in-out;
         padding-top: 2rem;
@@ -1159,44 +1331,55 @@ footer .babalar{
         align-items: start;
     }
 }
-@media (max-width: 1050px){
-    .information-container .information-content{
+
+@media (max-width: 1050px) {
+    .information-container .information-content {
         justify-content: center;
     }
-    .information-container .information-content .information-iframe iframe{
+
+    .information-container .information-content .information-iframe iframe {
         margin: auto;
     }
+
     .lel {
         margin-top: 5rem;
     }
 }
-@media (max-width:320px){
-    .lel{
+
+@media (max-width:320px) {
+    .lel {
         font-size: 6rem;
     }
 }
-@media (max-width: 580px){
-    .fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-list-head{
+
+@media (max-width: 580px) {
+    .fee-big-container .fee-container .fee-list .fee-list-container .fee-list-content .fee-list-head {
         font-size: 2.4rem;
     }
-    .fee-big-container .fee-container .fee-list .fee-list-container{
+
+    .fee-big-container .fee-container .fee-list .fee-list-container {
         width: 40rem;
         height: 27rem;
     }
-    .fee-container{
+
+    .fee-container {
         margin: 0 3rem;
     }
-    .fee-big-container .fee-container .fee-list{
+
+    .fee-big-container .fee-container .fee-list {
         justify-content: center;
     }
-    .navbar{
-       margin-right: rem;
-       width: 40vw;
+
+    .navbar {
+        margin-right: rem;
+        width: 40vw;
     }
-    header .navbar ul li{
+
+    header .navbar ul li {
         margin-bottom: 1rem;
     }
-    .drowpdown-nav{
+
+    .drowpdown-nav {
         margin-right: 8rem;
         z-index: 1;
         position: fixed;
@@ -1205,7 +1388,7 @@ footer .babalar{
         opacity: 0;
         width: 22vw;
         height: max-content;
-        margin-top:53vh;
+        margin-top: 53vh;
         background-color: #4a0000;
         transition: all 0.3s ease-in-out;
         padding-top: 2rem;
@@ -1213,28 +1396,33 @@ footer .babalar{
         align-items: start;
         justify-content: center;
     }
-    .drowpdown-list a{
+
+    .drowpdown-list a {
         padding-left: 1rem;
     }
 }
-@media (min-device-width: 768px) and (max-device-width: 1024px){
-    header .logo a{
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+    header .logo a {
         display: flex;
     }
-    header .logo .tflmun-logo{
+
+    header .logo .tflmun-logo {
         margin-left: -2rem;
         margin-right: -3rem;
     }
-    header .logo .logo-text{
+
+    header .logo .logo-text {
         justify-content: center;
         align-items: center;
         font-size: 1.5rem;
         display: flex;
     }
 }
+
 /* Responsive End */
 @supports (-webkit-touch-callout: none) {
     body {
-      overflow: auto;
+        overflow: auto;
     }
-  }
+}
