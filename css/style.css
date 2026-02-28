@@ -820,6 +820,20 @@ footer .babalar {
 }
 
 /* Fee End */
+/* To Be Announced Container Start */
+.tobeannouncedContainer{
+    height: calc(100vh - 13.4rem);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.tobeannouncedContainer .tobeannounced{
+    font-size: 6rem;
+    color: var(--text-color);
+    text-align: center;
+
+}
+/* To Be Announced Container End */
 /* Responsive Start */
 @media (min-width: 768px) {
     .header .buttons button {

@@ -302,4 +302,126 @@ document.querySelector("#carpBes").addEventListener("click", function(){
         card5.style.backgroundPosition = "center"
         degisken5 = true
     }
+}) 
+let degisken6 = true
+document.querySelector("#readMoreAlti").addEventListener("click", function(){
+    var agentText6 = document.querySelector("#cardAltiAgentText");
+    var cardFooter6 = document.querySelector("#cardFooterAlti");
+    var carp6 = document.querySelector("#carpAlti");
+    var card6 = document.querySelector("#cardAlti");
+    var readMore6 = document.querySelector("#readMoreAlti");
+    if(degisken6 == true){
+        agentText6.style.display = "inline-block"
+        card6.style.height = "20rem"
+        cardFooter6.style
+        carp6.style.display = "inline-block"
+        agentText6.style.visibility = "visible"
+        agentText6.style.opacity = "1"
+        cardFooter6.style.borderBottomLeftRadius = "0rem"
+        cardFooter6.style.borderBottomRightRadius = "0rem"
+        cardFooter6.style.boxShadow = ""
+        cardFooter6.style.border = "solid 0.1rem #320000"
+        cardFooter6.style.backgroundColor = "rgba(50, 10, 10, 0.03)" 
+        readMore6.style.display = "none"
+        card6.style.backgroundPosition = "top"
+        degisken6 = false
+    } else {
+        cardFooter6.style.borderRight = ""
+        cardFooter6.style.borderLeft = ""
+        cardFooter6.style.borderBottom = ""
+        card6.style.height = ""
+        carp6.style.display = "none"
+        agentText6.style.visibility = "hidden"
+        agentText6.style.opacity = "0"
+        cardFooter6.style.borderBottomLeftRadius = "0.75rem"
+        cardFooter6.style.borderBottomRightRadius = "0.75rem"
+        cardFooter6.style.boxShadow = "0 4px 6px #320000"
+        cardFooter6.style.border = "none"
+        degisken6 = true
+    }
+})
+document.querySelector("#carpAlti").addEventListener("click", function(){
+    var agentText6 = document.querySelector("#cardAltiAgentText");
+    var cardFooter6 = document.querySelector("#cardFooterAlti");
+    var carp6 = document.querySelector("#carpAlti");
+    var card6 = document.querySelector("#cardAlti");
+    var readMore6 = document.querySelector("#readMoreAlti");    
+    if (degisken6 == false){
+        agentText6.style.display = "none"
+        readMore6.style.display = "inline-block"
+        cardFooter6.style.borderRight = ""
+        cardFooter6.style.borderLeft = ""
+        cardFooter6.style.borderBottom = ""
+        card6.style.height = ""
+        carp6.style.display = "none"
+        agentText6.style.visibility = "hidden"
+        agentText6.style.opacity = "0"
+        cardFooter6.style.borderBottomLeftRadius = "0.75rem"
+        cardFooter6.style.borderBottomRightRadius = "0.75rem"
+        cardFooter6.style.boxShadow = "0 4px 6px #320000"
+        cardFooter6.style.border = "none"
+        card6.style.backgroundPosition = "center"
+        degisken6 = true
+    }
+})
+let degisken7 = true
+document.querySelector("#readMoreYedi").addEventListener("click", function(){
+    var agentText7 = document.querySelector("#cardYediAgentText");
+    var cardFooter7 = document.querySelector("#cardFooterYedi");
+    var carp7 = document.querySelector("#carpYedi");
+    var card7 = document.querySelector("#cardYedi");
+    var readMore7 = document.querySelector("#readMoreYedi");
+    if(degisken7 == true){
+        agentText7.style.display = "inline-block"
+        card7.style.height = "20rem"
+        cardFooter7.style
+        carp7.style.display = "inline-block"
+        agentText7.style.visibility = "visible"
+        agentText7.style.opacity = "1"
+        cardFooter7.style.borderBottomLeftRadius = "0rem"
+        cardFooter7.style.borderBottomRightRadius = "0rem"
+        cardFooter7.style.boxShadow = ""
+        cardFooter7.style.border = "solid 0.1rem #320000"
+        cardFooter7.style.backgroundColor = "rgba(50, 10, 10, 0.03)" 
+        readMore7.style.display = "none"
+        card7.style.backgroundPosition = "top"
+        degisken7 = false
+    } else {
+        cardFooter7.style.borderRight = ""
+        cardFooter7.style.borderLeft = ""
+        cardFooter7.style.borderBottom = ""
+        card7.style.height = ""
+        carp7.style.display = "none"
+        agentText7.style.visibility = "hidden"
+        agentText7.style.opacity = "0"
+        cardFooter7.style.borderBottomLeftRadius = "0.75rem"
+        cardFooter7.style.borderBottomRightRadius = "0.75rem"
+        cardFooter7.style.boxShadow = "0 4px 6px #320000"
+        cardFooter7.style.border = "none"
+        degisken7 = true
+    }
+})
+document.querySelector("#carpYedi").addEventListener("click", function(){
+    var agentText7 = document.querySelector("#cardYediAgentText");
+    var cardFooter7 = document.querySelector("#cardFooterYedi");
+    var carp7 = document.querySelector("#carpYedi");
+    var card7 = document.querySelector("#cardYedi");
+    var readMore7 = document.querySelector("#readMoreYedi");    
+    if (degisken7 == false){
+        agentText7.style.display = "none"
+        readMore7.style.display = "inline-block"
+        cardFooter7.style.borderRight = ""
+        cardFooter7.style.borderLeft = ""
+        cardFooter7.style.borderBottom = ""
+        card7.style.height = ""
+        carp7.style.display = "none"
+        agentText7.style.visibility = "hidden"
+        agentText7.style.opacity = "0"
+        cardFooter7.style.borderBottomLeftRadius = "0.75rem"
+        cardFooter7.style.borderBottomRightRadius = "0.75rem"
+        cardFooter7.style.boxShadow = "0 4px 6px #320000"
+        cardFooter7.style.border = "none"
+        card7.style.backgroundPosition = "center"
+        degisken7 = true
+    }
 })

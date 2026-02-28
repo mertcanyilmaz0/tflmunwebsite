@@ -123,6 +123,20 @@
     margin-top: 1rem;
     margin-right: 1rem;
 }
+.card#cardAlti .carp-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.card#cardYedi .carp-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
 .carp-container svg {
     width: 5rem;
     color: #fff;
@@ -150,7 +164,7 @@
 }
 .ab{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 15rem;
     row-gap: 5rem;
 }
@@ -261,7 +275,32 @@
     font-size: 20px;
     font-weight: bold;
 }
-
+.card#cardAlti {
+    position: relative;
+    background-image: url(../img/fcc_background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card#cardYedi {
+    position: relative;
+    background-image: url(../img/fcc_background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
 .card-header {
     height: 20rem;
     /*burada eskiden       box-shadow: 0 4px 6px rgba(59, 130, 246, 0.4); vardı*/
