@@ -199,7 +199,7 @@ header .buttons button {
 /* Apply Start */
 /* Main Section Start */
 .home-container .home-content .home-baslik h1 {
-    color: var(--bg-color);
+    color: var(--text-color);
     font-size: 16rem;
     margin-bottom: 1rem;
     font-weight: bold;
@@ -213,7 +213,7 @@ header .buttons button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../img/tflmun_home_background.jpg);
+    background-image: url(../img/tflmun_home_background_2026.png);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;

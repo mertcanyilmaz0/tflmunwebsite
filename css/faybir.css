@@ -207,7 +207,8 @@
 
 .card#cardBir {
     position: relative;
-    background-image: url(../img/disec_background.jpg);
+    background:linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1)), 
+    url(../img/COMMITTEES/who.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -221,7 +222,8 @@
 
 .card#cardIki {
     position: relative;
-    background-image: url(../img/legal_background.jpg);
+    background:linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1)),
+    url(../img/COMMITTEES/UNICEF.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -236,7 +238,8 @@
 
 .card#cardUc {
     position: relative;
-    background-image: url(../img/unwomen_bacgkround.jpg);
+    background: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1)),
+    url(../img/COMMITTEES/UNODC.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -250,7 +253,8 @@
 
 .card#cardDort {
     position: relative;
-    background-image: url(../img/unodc_backgorund.jpg);
+    background: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1)),
+    url(../img/COMMITTEES/OHCHR.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -264,7 +268,8 @@
 
 .card#cardBes {
     position: relative;
-    background-image: url(../img/fcc_background.jpg);
+    background:linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1)),
+    url(../img/COMMITTEES/LEGAL.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -277,7 +282,8 @@
 }
 .card#cardAlti {
     position: relative;
-    background-image: url(../img/fcc_background.jpg);
+    background: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1)),
+    url(../img/COMMITTEES/H-SPECPOL.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -290,7 +296,8 @@
 }
 .card#cardYedi {
     position: relative;
-    background-image: url(../img/fcc_background.jpg);
+    background:linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1)),
+    url(../img/COMMITTEES/NOVUSTERRA.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
