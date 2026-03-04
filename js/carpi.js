@@ -384,7 +384,7 @@ document.querySelector("#readMoreYedi").addEventListener("click", function(){
         cardFooter7.style.border = "solid 0.1rem #320000"
         cardFooter7.style.backgroundColor = "rgba(50, 10, 10, 0.03)" 
         readMore7.style.display = "none"
-        card7.style.backgroundPosition = "top"
+        card7.style.backgroundPosition = "center"
         degisken7 = false
     } else {
         cardFooter7.style.borderRight = ""

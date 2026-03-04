@@ -207,7 +207,7 @@
 
 .card#cardBir {
     position: relative;
-    background:linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1)), 
+    background:linear-gradient(rgba(132, 30, 21, 0.3), rgba(132, 30, 21, 0.3)), 
     url(../img/COMMITTEES/who.png);
     background-position: center;
     background-size: cover;
@@ -222,7 +222,7 @@
 
 .card#cardIki {
     position: relative;
-    background:linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1)),
+    background:linear-gradient(rgba(132, 30, 21, 0.3), rgba(132, 30, 21, 0.3)),
     url(../img/COMMITTEES/UNICEF.jpg);
     background-position: center;
     background-size: cover;
@@ -238,7 +238,7 @@
 
 .card#cardUc {
     position: relative;
-    background: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1)),
+    background:linear-gradient(rgba(132, 30, 21, 0.3), rgba(132, 30, 21, 0.3)),
     url(../img/COMMITTEES/UNODC.jpg);
     background-position: center;
     background-size: cover;
@@ -253,7 +253,7 @@
 
 .card#cardDort {
     position: relative;
-    background: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1)),
+    background: linear-gradient(rgba(132, 30, 21, 0.3), rgba(132, 30, 21, 0.3)),
     url(../img/COMMITTEES/OHCHR.png);
     background-position: center;
     background-size: cover;
@@ -268,7 +268,7 @@
 
 .card#cardBes {
     position: relative;
-    background:linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1)),
+    background:linear-gradient(rgba(132, 30, 21, 0.3), rgba(132, 30, 21, 0.3)),
     url(../img/COMMITTEES/LEGAL.png);
     background-position: center;
     background-size: cover;
@@ -282,7 +282,7 @@
 }
 .card#cardAlti {
     position: relative;
-    background: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1)),
+    background: linear-gradient(rgba(132, 30, 21, 0.3), rgba(132, 30, 21, 0.3)),
     url(../img/COMMITTEES/H-SPECPOL.png);
     background-position: center;
     background-size: cover;
@@ -296,7 +296,7 @@
 }
 .card#cardYedi {
     position: relative;
-    background:linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1)),
+    background:linear-gradient(rgba(132, 30, 21, 0.3), rgba(132, 30, 21, 0.3)),
     url(../img/COMMITTEES/NOVUSTERRA.jpeg);
     background-position: center;
     background-size: cover;

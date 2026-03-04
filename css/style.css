@@ -472,6 +472,7 @@ header .buttons button {
 /* Irmak Section End */
 /* Footer Section Start */
 footer {
+    position: static;
     background-color: var(--new-bg-color);
     width: 100vw;
 }
@@ -1433,7 +1434,14 @@ footer .babalar {
         display: flex;
     }
 }
-
+@media (max-width:203px){
+header .logo{
+    margin-right: 1rem;
+}
+header .buttons button{
+    margin-right: 5vw;
+}
+}
 /* Responsive End */
 @supports (-webkit-touch-callout: none) {
     body {
