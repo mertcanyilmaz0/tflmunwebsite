@@ -125,7 +125,7 @@ header {
     z-index: 1000;
 }
 
-header .logo .tflmun-logo {
+/* header .logo .tflmun-logo {
     display: inline-block;
     vertical-align: middle;
     height: 8rem;
@@ -144,8 +144,23 @@ header .logo .logo-text {
     align-items: center;
     justify-content: center;
     color: var(--bg-color);
+} */
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
+header .logo .tflmun-logo {
+    height: 8rem;
+    display: block;
+}
+
+header .logo .logo-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--bg-color);
+}
 header .navbar .navbar-liste li,
 a {
     color: var(--bg-color);
@@ -381,13 +396,13 @@ header .buttons button {
     background-color: var(--new-bg-color);
 } */
 .about-us {
-    height: calc(100vh - 13.4rem);
+    min-height: calc(100vh - 13.4rem);
     margin: 0 10rem;
     margin-bottom: 7rem;
 }
 
 .about-us-container .about-us .about-us-content {
-    margin: 5rem 0;
+    padding: 5rem 0;
 }
 
 .about-us-container .about-us .about-us-content h2 {
@@ -894,7 +909,7 @@ footer .babalar {
 
     .about-us {
         margin-top: 11rem;
-        height: 100vh;
+        min-height: 100vh;
     }
 
     header .buttons {
