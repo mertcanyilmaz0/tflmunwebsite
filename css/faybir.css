@@ -162,6 +162,14 @@
     column-gap: 50px;
     justify-items: center;
 }
+.ac{
+        display: grid;
+/*     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); */
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 2rem;
+    column-gap: 50px;
+    justify-items: center;
+}
 .ab{
     display: grid;
     grid-template-columns: 1fr;
@@ -385,6 +393,14 @@
         row-gap: 7rem;
     }
     .ab{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 7rem;
+        row-gap: 7rem;
+        margin-bottom: 8rem;
+                margin-top: -10.5rem;
+    }
+    .ac{
         display: grid;
         grid-template-columns: 1fr;
         column-gap: 7rem;
