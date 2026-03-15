@@ -145,10 +145,11 @@ header .logo .logo-text {
     justify-content: center;
     color: var(--bg-color);
 } */
-header .logo {
+header .logo a {
     display: flex;
     align-items: center;
     gap: 1rem;
+    text-decoration: none;
 }
 
 header .logo .tflmun-logo {
