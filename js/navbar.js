@@ -24,7 +24,7 @@ document.addEventListener("click", function(event) {
         navbar.style.right = "-250px";
     }
 });
-document.querySelector("#dropdown").addEventListener("click", function(event) {
+/* document.querySelector("#dropdown").addEventListener("click", function(event) {
     var dropDownNavbar = document.querySelector("#dropdownNav");
     var dropDown = document.querySelector("#dropdown");
     var screenWidth = window.innerWidth;
@@ -81,4 +81,23 @@ function bugfix(){
     dropDown.style.display = '';
     dropDownNavbar.style.display = "none";
 }
-bugfix()
+bugfix() */
+const dropdown = document.querySelector("#dropdown");
+const dropdownNav = document.querySelector("#dropdownNav");
+
+dropdown.addEventListener("click", (e) => {
+    e.stopPropagation(); // dış click kapanması için önemli
+    dropdownNav.classList.toggle("active");
+});
+
+window.addEventListener("click", () => {
+    dropdownNav.classList.remove("active");
+});
+
+window.addEventListener("resize", () => {
+    dropdownNav.classList.remove("active");
+});
+
+window.addEventListener("scroll", () => {
+    dropdownNav.classList.remove("active");
+});
