@@ -118,7 +118,7 @@ section {
 
 .drowpdown-list a {
     margin: 2rem 1rem;
-    text-align: center;
+    text-align: start;
 }
 
 .drowpdown-list a:hover {
@@ -126,7 +126,7 @@ section {
     padding-bottom: 1rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 /* Apply End */
@@ -1076,7 +1076,7 @@ footer .babalar {
         position: absolute;
 
         top: 0;
-        right: 100%;  
+        right: 125%;  
 
         width: 200px;
         height: auto;
