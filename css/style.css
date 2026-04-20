@@ -758,7 +758,7 @@ footer .babalar {
 .meet-the-team-container .meet-the-team-content .meet-the-team-list-1 {
     list-style-type: none;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     row-gap: 8rem;
     column-gap: 8rem;
     justify-content: center;
